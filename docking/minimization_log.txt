@@ -1,0 +1,1881 @@
+Added protein "AF_relavent_res"
+07/10/2022 10:44
+From file "AF_relavent_res.pdb"
+
+Warnings when reading the file:
+Line    1: The depDate field is invalid. Found "".
+Line    6: Invalid "remarkNum" field "".
+Line    7: Invalid "remarkNum" field "".
+Line    8: Invalid "remarkNum" field "".
+Line    9: Invalid "remarkNum" field "".
+Line   10: Invalid "remarkNum" field "".
+Line   11: Invalid "remarkNum" field "".
+Line   12: Invalid "remarkNum" field "".
+Line   13: Invalid "remarkNum" field "".
+Line   14: Invalid "remarkNum" field "".
+Line   15: Invalid "remarkNum" field "".
+Line   16: Invalid "remarkNum" field "".
+Line   17: Invalid "remarkNum" field "".
+Line   18: Invalid "remarkNum" field "".
+Line   19: Invalid "remarkNum" field "".
+Line   20: Invalid "remarkNum" field "".
+Line   21: Invalid "remarkNum" field "".
+Line   22: Invalid "remarkNum" field "".
+Line   23: Invalid "remarkNum" field "".
+Line   24: Invalid "remarkNum" field "".
+Line   25: Invalid "remarkNum" field "".
+Line   26: Invalid "remarkNum" field "".
+Line   27: Invalid "remarkNum" field "".
+Line   28: Invalid "remarkNum" field "".
+Line   29: Invalid "remarkNum" field "".
+Line   30: Invalid "remarkNum" field "".
+Line   31: Invalid "remarkNum" field "".
+Line   32: Invalid "remarkNum" field "".
+Line   33: Invalid "remarkNum" field "".
+Line   34: Invalid "remarkNum" field "".
+Line   35: Invalid "remarkNum" field "".
+Line   36: Invalid "remarkNum" field "".
+Line   37: Invalid "remarkNum" field "".
+Line   38: Invalid "remarkNum" field "".
+Line   39: Invalid "remarkNum" field "".
+Line   40: Invalid "remarkNum" field "".
+Line   41: Invalid "remarkNum" field "".
+Line   42: Invalid "remarkNum" field "".
+Line   43: Invalid "remarkNum" field "".
+Line   44: Invalid "remarkNum" field "".
+Line   45: Invalid "remarkNum" field "".
+Line   46: Invalid "remarkNum" field "".
+Line   48: Invalid "remarkNum" field "".
+Line   49: Invalid "remarkNum" field "".
+Line   50: Invalid "remarkNum" field "".
+Line   51: Invalid "remarkNum" field "".
+Line   52: Invalid "remarkNum" field "".
+Line   53: Invalid "remarkNum" field "".
+
+Protein Preparation of "AF_relavent_res"
+07/10/2022 10:44
+
+Total +ve charges: 37
+Total -ve charges: -39
+Net total charges: -2
+
+Process config '[Custom]'
+Allow 1- and 2-residue gaps in the protein to be filled:                                       	true
+Allow the side chains to move a small amount to relieve steric clashes in the input coordinates:	true
+Cap chains with NME and ACE where required:                                                    	true
+Create copies of the protein molecules:                                                        	true
+Don't change the protonation and tautomer state of the ligands:                                	false
+Extract the ligands out of the protein:                                                        	true
+Remove atoms from residues with incomplete backbone:                                           	true
+Removes the waters outside of the active site:                                                 	true
+Set pH at which protein preparation is performed:                                              	7
+The role to extract ligands to:                                                                	Ligands
+The size of the active site to show after extracting the ligands:                              	6
+
+
+Protein preparation with capping was requested.
+
+-------------------------------------------------
+build model version 2112 build 1
+-------------------------------------------------
+
+Input filename: /tmp/FieldEngine-li/BuildModel_1018432_1/Input.pdb
+Random seed: 109 1337
+pH for model building: 7
+
+
+Ligand was found automatically:   residue 1178 NME chain A
+
+
+pKa values:
+Group	Type	ResName	ResNum	InsCode	Chain	pKa(calc)	Comment
+0	TerN	THR	890	 	A	  7.49		
+2	His	HIS	893	 	A	  5.74		
+3	Lys	LYS	894	 	A	 14.00		
+5	Tyr	TYR	896	 	A	 10.01		
+6	Lys	LYS	898	 	A	 14.00		
+7	Lys	LYS	899	 	A	 14.00		
+9	Asp	ASP	902	 	A	  2.08		
+10	Glu	GLU	905	 	A	  3.65		
+11	His	HIS	907	 	A	  6.46		
+12	Lys	LYS	910	 	A	 14.00		
+14	Tyr	TYR	914	 	A	 10.26		
+15	Cys	CYS	915	 	A	  8.75		
+16	Tyr	TYR	916	 	A	  9.39		
+17	Asp	ASP	917	 	A	  2.85		
+20	Asp	ASP	921	 	A	  3.49		
+22	Glu	GLU	925	 	A	  3.50		
+23	Lys	LYS	930	 	A	 14.00		
+24	Lys	LYS	933	 	A	 14.00		
+25	Asp	ASP	935	 	A	  3.42		
+26	Cys	CYS	936	 	A	  8.42		
+28	His	HIS	940	 	A	  6.22		
+32	Lys	LYS	945	 	A	 14.00		
+34	Glu	GLU	947	 	A	  3.53		
+35	Asp	ASP	949	 	A	  2.77		
+38	Tyr	TYR	955	 	A	 10.60		
+39	His	HIS	956	 	A	  5.99		
+40	Glu	GLU	957	 	A	  4.39		
+41	His	HIS	958	 	A	  6.60		
+42	Lys	LYS	961	 	A	 14.00		
+43	Tyr	TYR	962	 	A	 10.18		
+44	Lys	LYS	963	 	A	 14.00		
+45	Cys	CYS	965	 	A	  8.48		
+46	Cys	CYS	966	 	A	  8.68		
+47	Glu	GLU	967	 	A	  4.29		
+48	Asp	ASP	968	 	A	  3.25		
+50	Glu	GLU	971	 	A	  3.92		
+51	Lys	LYS	972	 	A	 14.00		
+54	Glu	GLU	979	 	A	  3.15		
+55	Tyr	TYR	980	 	A	 10.23		
+58	Asp	ASP	988	 	A	  2.76		
+59	Tyr	TYR	989	 	A	 10.93		
+61	His	HIS	993	 	A	  6.17		
+66	Cys	CYS	1008	 	A	  8.65		
+67	Glu	GLU	1009	 	A	  4.95		
+68	Tyr	TYR	1013	 	A	  8.54		
+69	His	HIS	1015	 	A	  7.59		
+71	His	HIS	1018	 	A	  6.53		
+72	Tyr	TYR	1019	 	A	 10.68		
+73	His	HIS	1021	 	A	  6.61		
+75	Asp	ASP	1023	 	A	  3.15		
+78	Asp	ASP	1032	 	A	  3.25		
+80	Asp	ASP	1034	 	A	  3.33		
+82	Lys	LYS	1038	 	A	 14.00		
+83	Asp	ASP	1041	 	A	  2.88		
+84	Lys	LYS	1046	 	A	 14.00		
+85	Glu	GLU	1050	 	A	  4.04		
+86	His	HIS	1052	 	A	  6.23		
+87	Glu	GLU	1053	 	A	  4.18		
+88	Tyr	TYR	1054	 	A	 10.13		
+89	Tyr	TYR	1055	 	A	 10.17		
+92	Glu	GLU	1059	 	A	  3.50		
+93	Asp	ASP	1060	 	A	  3.50		
+94	Asp	ASP	1062	 	A	  3.50		
+97	Tyr	TYR	1068	 	A	 10.46		
+98	Glu	GLU	1071	 	A	  2.00		
+99	Cys	CYS	1072	 	A	  9.11		
+100	Lys	LYS	1074	 	A	 14.00		
+101	Glu	GLU	1075	 	A	  3.19		
+102	Tyr	TYR	1076	 	A	 10.41		
+103	Lys	LYS	1077	 	A	 14.00		
+104	Tyr	TYR	1079	 	A	 10.61		
+105	Tyr	TYR	1080	 	A	 10.25		
+107	Asp	ASP	1083	 	A	  2.00		
+111	Tyr	TYR	1092	 	A	 10.65		
+112	Glu	GLU	1093	 	A	  3.19		
+114	His	HIS	1097	 	A	  6.48		
+115	Cys	CYS	1098	 	A	  8.83		
+116	Asp	ASP	1099	 	A	  2.84		
+122	Lys	LYS	1107	 	A	 14.00		
+123	Glu	GLU	1110	 	A	  3.45		
+129	Glu	GLU	1126	 	A	  3.39		
+130	Glu	GLU	1129	 	A	  3.99		
+132	Glu	GLU	1132	 	A	  3.70		
+135	Asp	ASP	1138	 	A	  3.37		
+136	Lys	LYS	1139	 	A	 14.00		
+137	Cys	CYS	1140	 	A	  8.64		
+138	Cys	CYS	1142	 	A	  8.34		
+139	Glu	GLU	1143	 	A	  2.93		
+140	Tyr	TYR	1145	 	A	 10.21		
+141	His	HIS	1146	 	A	  6.22		
+142	Lys	LYS	1149	 	A	 14.00		
+144	Cys	CYS	1151	 	A	  8.70		
+146	Glu	GLU	1153	 	A	  4.03		
+148	Glu	GLU	1155	 	A	  4.34		
+152	Glu	GLU	1163	 	A	  3.87		
+154	Lys	LYS	1170	 	A	 14.00		
+156	His	HIS	1173	 	A	  6.21		
+157	Glu	GLU	1174	 	A	  4.13		
+158	Lys	LYS	1175	 	A	 14.00		
+159	Tyr	TYR	1176	 	A	 10.40		
+
+
+Build model log:
+ResName	ResNum	InsCode	Chain	Actions
+HIS	893	 	A	sidechain position changed (flip)	
+HIS	958	 	A	sidechain position changed (flip)	
+GLN	999	 	A	sidechain position changed (flip)	
+HIS	1018	 	A	sidechain position changed (flip)	
+HIS	1052	 	A	sidechain position changed (flip)	
+ASN	1164	 	A	sidechain position changed (flip)	
+THR	890	 	A	added 1 proton to atom N	
+HIS	1015	 	A	added 1 proton to atom ND1	
+
+
+
+Download protein "4GIH"
+07/10/2022 10:44
+
+Downloaded from: https://files.rcsb.org/download/4gih.pdb.gz
+
+Warnings when reading the file:
+Protein contains alternative location indicators.
+
+Protein Preparation of "4GIH"
+07/10/2022 10:44
+
+Total +ve charges: 36
+Total -ve charges: -37
+Net total charges: -1
+Extracting residues as ligands to role "Ligands": "A 0X5 1201"
+
+Process config '[Custom]'
+Allow 1- and 2-residue gaps in the protein to be filled:                                       	true
+Allow the side chains to move a small amount to relieve steric clashes in the input coordinates:	true
+Cap chains with NME and ACE where required:                                                    	true
+Create copies of the protein molecules:                                                        	true
+Don't change the protonation and tautomer state of the ligands:                                	false
+Extract the ligands out of the protein:                                                        	true
+Remove atoms from residues with incomplete backbone:                                           	true
+Removes the waters outside of the active site:                                                 	true
+Set pH at which protein preparation is performed:                                              	7
+The role to extract ligands to:                                                                	Ligands
+The size of the active site to show after extracting the ligands:                              	6
+
+
+Protein preparation with capping was requested.
+115 water molecules were removed as they were outside the active site.
+
+-------------------------------------------------
+build model version 2112 build 1
+-------------------------------------------------
+
+Input filename: /tmp/FieldEngine-li/BuildModel_1018472_1/Input.pdb
+Random seed: 109 1337
+pH for model building: 7
+
+
+Ligand was found automatically:   residue 1201 0X5 chain A
+
+
+pKa values:
+Group	Type	ResName	ResNum	InsCode	Chain	pKa(calc)	Comment
+1	His	HIS	893	 	A	  6.17		
+2	Lys	LYS	894	 	A	 14.00		
+4	Tyr	TYR	896	 	A	  9.86		
+5	Lys	LYS	898	 	A	 14.00		
+6	Lys	LYS	899	 	A	 14.00		
+8	Asp	ASP	902	 	A	  2.69		
+9	Glu	GLU	905	 	A	  4.19		
+10	His	HIS	907	 	A	  6.66		
+11	Lys	LYS	910	 	A	 14.00		
+13	Tyr	TYR	914	 	A	  9.99		
+14	Cys	CYS	915	 	A	  8.85		
+15	Tyr	TYR	916	 	A	  8.00		
+16	Asp	ASP	917	 	A	  2.95		
+19	Asp	ASP	921	 	A	  3.44		
+21	Glu	GLU	925	 	A	  4.16		
+22	Lys	LYS	930	 	A	 14.00	Ligand interactions	
+23	Lys	LYS	933	 	A	 14.00		
+24	Asp	ASP	935	 	A	  2.81		
+26	His	HIS	940	 	A	  6.03		
+30	Lys	LYS	945	 	A	 14.00		
+32	Glu	GLU	947	 	A	  3.27		
+33	Asp	ASP	949	 	A	  3.12		
+36	Tyr	TYR	955	 	A	 10.26		
+37	His	HIS	956	 	A	  6.53		
+38	Glu	GLU	957	 	A	  4.04		
+39	His	HIS	958	 	A	  6.79		
+40	Lys	LYS	961	 	A	 14.00		
+41	Tyr	TYR	962	 	A	 10.12		
+42	Lys	LYS	963	 	A	 14.00		
+43	Cys	CYS	965	 	A	  8.38		
+44	Cys	CYS	966	 	A	  8.66		
+45	Glu	GLU	967	 	A	  4.31		
+46	Asp	ASP	968	 	A	  3.04		
+49	Glu	GLU	979	 	A	  2.62		
+50	Tyr	TYR	980	 	A	 10.18	Ligand interactions	
+53	Asp	ASP	988	 	A	  2.55	Ligand interactions	
+54	Tyr	TYR	989	 	A	 10.38		
+56	His	HIS	993	 	A	  6.18		
+61	Cys	CYS	1008	 	A	  8.69		
+62	Glu	GLU	1009	 	A	  3.77		
+63	Tyr	TYR	1013	 	A	  8.85		
+64	His	HIS	1015	 	A	  7.62		
+66	His	HIS	1018	 	A	  6.73		
+67	Tyr	TYR	1019	 	A	 10.64		
+68	His	HIS	1021	 	A	  6.29		
+73	Asp	ASP	1032	 	A	  3.11		
+75	Asp	ASP	1034	 	A	  3.30		
+77	Lys	LYS	1038	 	A	 14.00		
+78	Asp	ASP	1041	 	A	  3.12		
+79	Lys	LYS	1046	 	A	 14.00		
+80	Glu	GLU	1050	 	A	  3.74		
+81	His	HIS	1052	 	A	  6.34		
+82	Glu	GLU	1053	 	A	  4.05		
+83	Tyr	TYR	1054	 	A	 10.05		
+84	Tyr	TYR	1055	 	A	  9.60		
+87	Glu	GLU	1059	 	A	  4.36		
+88	Asp	ASP	1060	 	A	  3.35		
+89	Asp	ASP	1062	 	A	  3.53		
+92	Tyr	TYR	1068	 	A	 10.43		
+93	Glu	GLU	1071	 	A	  2.26		
+94	Cys	CYS	1072	 	A	  9.02		
+95	Lys	LYS	1074	 	A	 14.00		
+96	Glu	GLU	1075	 	A	  3.91		
+97	Tyr	TYR	1076	 	A	 10.82		
+98	Lys	LYS	1077	 	A	 14.00		
+99	Tyr	TYR	1079	 	A	 10.55		
+100	Tyr	TYR	1080	 	A	  9.90		
+102	Asp	ASP	1083	 	A	  2.00		
+106	Tyr	TYR	1092	 	A	 10.56		
+107	Glu	GLU	1093	 	A	  3.65		
+109	His	HIS	1097	 	A	  6.46		
+110	Cys	CYS	1098	 	A	  8.84		
+111	Asp	ASP	1099	 	A	  2.71		
+117	Lys	LYS	1107	 	A	 14.00		
+118	Glu	GLU	1110	 	A	  3.72		
+124	Glu	GLU	1126	 	A	  3.55		
+125	Glu	GLU	1129	 	A	  3.76		
+127	Glu	GLU	1132	 	A	  2.97		
+130	Asp	ASP	1138	 	A	  3.02		
+131	Lys	LYS	1139	 	A	 14.00		
+132	Cys	CYS	1140	 	A	  8.62		
+133	Glu	GLU	1143	 	A	  4.15		
+134	Tyr	TYR	1145	 	A	 10.19		
+135	His	HIS	1146	 	A	  6.10		
+136	Lys	LYS	1149	 	A	 14.00		
+138	Cys	CYS	1151	 	A	  8.70		
+140	Glu	GLU	1153	 	A	  4.98		
+142	Glu	GLU	1155	 	A	  4.23		
+146	Glu	GLU	1163	 	A	  4.06		
+148	Lys	LYS	1170	 	A	 14.00		
+150	His	HIS	1173	 	A	  6.29		
+151	Glu	GLU	1174	 	A	  3.00		
+152	Lys	LYS	1175	 	A	 14.00		
+153	Tyr	TYR	1176	 	A	 10.08		
+159	Ligand	0X5	1201	 	A	  2.00		
+
+
+Build model log:
+ResName	ResNum	InsCode	Chain	Actions
+HIS	907	 	A	sidechain position changed (flip)	
+ASN	920	 	A	sidechain position changed (flip)	
+GLN	946	 	A	sidechain position changed (flip)	
+HIS	958	 	A	sidechain position changed (flip)	
+HIS	993	 	A	sidechain position changed (flip)	
+HIS	1018	 	A	sidechain position changed (flip)	
+ASN	1023	 	A	sidechain position changed (flip)	
+HIS	1052	 	A	sidechain position changed (flip)	
+HIS	1015	 	A	added 1 proton to atom ND1	
+
+
+
+Sequence alignment on 4 proteins
+07/10/2022 10:49
+Alignment using 1 alignment groups
+
+
+Alignment group 1 has 4 sequences:
+ 1)  A Chain in AF_relavent_res
+ 2)  A Chain in AF_relavent_res_P
+ 3)  A Chain in 4GIH
+ 4)  A Chain in 4GIH_P
+
+  Identity Matrix
+ 1)  100.00  100.00   95.25   95.25
+ 2)  100.00  100.00   95.25   95.25
+ 3)   95.25   95.25  100.00   99.67
+ 4)   95.25   95.25   99.67  100.00
+
+
+  Similarity Matrix (Blosum62)
+ 1)  100.00  100.00   94.77   94.77
+ 2)  100.00  100.00   94.77   94.77
+ 3)   94.77   94.77  100.00   99.51
+ 4)   94.77   94.77   99.51  100.00
+
+
+  Similarity Matrix (Wei/Altman/Chang)
+ 1)  100.00  100.00   94.92   94.92
+ 2)  100.00  100.00   94.92   94.92
+ 3)   94.92   94.92  100.00   99.67
+ 4)   94.92   94.92   99.67  100.00
+
+
+
+Superimposed to "4GIH_P" using alpha carbons
+07/10/2022 10:50
+RMS: 1.251 for "AF_relavent_res"
+RMS: 1.264 for "AF_relavent_res_P"
+RMS: 0.008 for "4GIH"
+
+Superimposing on all residues
+
+MCS Conformation Hunt "A 0X5 1201"
+07/10/2022 11:15
+
+New MCS alignment process started at Fri Oct 7 11:15:27 2022
+
+Alignment parameters are:
+Process config '[Custom]'
+Alignment clustering RMSD threshold:                    	0
+Alignment filtering RMSD threshold:                     	1
+Alignment weighting for hydrophobic field similarity:   	1
+Alignment weighting for negative field similarity:      	1
+Alignment weighting for positive field similarity:      	1
+Alignment weighting for surface field similarity:       	1
+Fraction of alignment score from ref->db vs db->ref:    	0.5
+Fraction of score from shape similarity:                	0.5
+Hardness of the protein surface:                        	Soft
+Is inversion of achiral moving molecules allowed?:      	true
+Just score input structures without aligning:           	false
+Maximum number of alignments to generate:               	100000
+Perform the alignment task:                             	true
+Return maximum similarity to any reference:             	false
+Scores the existing alignments only, no realignment:    	false
+Scoring metric:                                         	Dice
+Scoring metric alpha:                                   	0.5
+Scoring metric beta:                                    	0.5
+Should a two-pass simplex be performed?:                	false
+Should shortcuts be taken in the simplex first pass?:   	false
+Take major shortcuts in pairwise alignments:            	false
+Take shortcuts in matching field cliques for alignments:	false
+
+Using Normal MCS mode (bondRingChainLabel+atomElementLabel+atomHybridisationLabel)
+Applying maximum-common-substructure alignment to molecule 'A 0X5 1201' - no. MCSes is 61
+
+Best maximum-common-substructure alignment to molecule A 0X5 1201
+23 matched atoms are :
+This molecule: atoms: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,21,23 bonds: 2,8,11,19,20,22
+Reference:     atoms: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+
+Initial RMS fit: 0.27A
+Initial score: 2.749
+Matched bond 1-5 from reference molecule to bond 1-5
+Matched bond 2-11 from reference molecule to bond 2-11
+Matched bond 4-13 from reference molecule to bond 4-13
+Matched bond 5-12 from reference molecule to bond 5-12
+Matched bond 5-13 from reference molecule to bond 5-13
+Matched bond 8-23 from reference molecule to bond 8-23
+Matched bond 15-17 from reference molecule to bond 15-17
+Matched bond 17-18 from reference molecule to bond 17-18
+Matched bond 18-19 from reference molecule to bond 18-19
+Matched bond 18-20 from reference molecule to bond 18-20
+
+Created docking grid for "4GIH_P"
+07/10/2022 11:16
+
+Docking active site grid created from (-18.148,-21.739,-29.818) to (3.456,4.366,-6.511)
+Protein chains included: 
+  A Chain
+
+Lead Finder version 2112 build 1, 24 December 2021
+http://www.biomoltech.com/
+
+For a list of command-line switches, type leadfinder64 -h.
+
+Initializing random seed .. 
+Random seed : 1665137726  1020882
+Volume of the box : 13144.4 A3
+Making receptor model .. 
+
+Building protein model ...
+
+Deleting alternative pdb models ...
+All is correct : No atoms with alternative models
+
+Building and checking bonds ...
+
+Looking for unknown elements ...
+All is correct : All atoms have correct elements
+
+Checking aminoacids order ...
+All is correct : All residues have correct order of atoms
+
+Building chemical properties ...
+Library "/usr/local/cresset/Flare/third-party/lead-finder/residue.lib"
+
+Receptor model settings : 
+  - atom charges will be recalculated
+Library "/usr/local/cresset/Flare/third-party/lead-finder/dock_ff.lib"
+Total charge on the macromolecule : -1
+Grid reorientation will not be performed (no reference ligand has been provided)
+Calculating grid maps .. 
+Grid size 59 x 71 x 63 points
+
+Processing VdW map for SX  
+Processing VdW map for CF  
+Processing VdW map for B  
+Processing VdW map for NX  
+Processing VdW map for I  
+Processing VdW map for Br  
+Processing VdW map for Cl  
+Processing VdW map for F  
+Processing VdW map for H  
+Processing VdW map for S  
+Processing VdW map for P  
+Processing VdW map for O  
+Processing VdW map for N  
+Processing VdW map for A  
+Processing VdW map for C  
+Calculations have taken 53.0574 seconds 
+Saving grid maps .. 
+
+
+Docked "A 0X5 1201_D"
+07/10/2022 11:16
+To protein "4GIH_P"
+
+Docked "A 0X5 1201_D"
+Process config 'Accurate but Slow'
+Docking mode:                                                                               	Normal
+Extra command line parameters to run LeadFinder with:                                       	[]
+Increase the number of individuals in a population by a factor of :                         	1
+Increase the number of individuals in the initial pool by a factor of :                     	1
+Minimize ligands before docking:                                                            	true
+Multi-protein mode:                                                                         	Keep best overall scores
+Rotate amide bonds during docking:                                                          	false
+Rotate ester bonds (O=)C-O(-C) during docking:                                              	false
+SMARTS patterns of torsions that are not allowed to move:                                   	[]
+The max number of poses to output for each ligand:                                          	10
+The maximum docking constraint penalty that will be tolerated:                              	1
+The number of independent docking runs to perform:                                          	3
+The role to copy the ligands to. If not set, the ligands are inserted after the input ligand:	
+Use a copy of the ligands to perform the docking calculation with:                          	true
+
+Ligand "A 0X5 1201" was used as the template when docking.
+
+
+New MCS alignment process started at Fri Oct 7 11:15:27 2022
+
+Alignment parameters are:
+Process config '[Custom]'
+Alignment clustering RMSD threshold:                    	0
+Alignment filtering RMSD threshold:                     	1
+Alignment weighting for hydrophobic field similarity:   	1
+Alignment weighting for negative field similarity:      	1
+Alignment weighting for positive field similarity:      	1
+Alignment weighting for surface field similarity:       	1
+Fraction of alignment score from ref->db vs db->ref:    	0.5
+Fraction of score from shape similarity:                	0.5
+Hardness of the protein surface:                        	Soft
+Is inversion of achiral moving molecules allowed?:      	true
+Just score input structures without aligning:           	false
+Maximum number of alignments to generate:               	100000
+Perform the alignment task:                             	true
+Return maximum similarity to any reference:             	false
+Scores the existing alignments only, no realignment:    	false
+Scoring metric:                                         	Dice
+Scoring metric alpha:                                   	0.5
+Scoring metric beta:                                    	0.5
+Should a two-pass simplex be performed?:                	false
+Should shortcuts be taken in the simplex first pass?:   	false
+Take major shortcuts in pairwise alignments:            	false
+Take shortcuts in matching field cliques for alignments:	false
+
+Using Normal MCS mode (bondRingChainLabel+atomElementLabel+atomHybridisationLabel)
+Applying maximum-common-substructure alignment to molecule 'A 0X5 1201' - no. MCSes is 61
+
+Best maximum-common-substructure alignment to molecule A 0X5 1201
+23 matched atoms are :
+This molecule: atoms: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,21,23 bonds: 2,8,11,19,20,22
+Reference:     atoms: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+
+Initial RMS fit: 0.27A
+Initial score: 2.749
+Matched bond 1-5 from reference molecule to bond 1-5
+Matched bond 2-11 from reference molecule to bond 2-11
+Matched bond 4-13 from reference molecule to bond 4-13
+Matched bond 5-12 from reference molecule to bond 5-12
+Matched bond 5-13 from reference molecule to bond 5-13
+Matched bond 8-23 from reference molecule to bond 8-23
+Matched bond 15-17 from reference molecule to bond 15-17
+Matched bond 17-18 from reference molecule to bond 17-18
+Matched bond 18-19 from reference molecule to bond 18-19
+Matched bond 18-20 from reference molecule to bond 18-20
+
+===All conformations cleared===
+
+
+Performing rotation scan for possible flat bond between atoms 1 and 5
+Energy for flat bond is 155.3 kcal/mol
+Possible flat bond between atoms 1 and 5 has been designated as not flat, as low-energy rotamer with energy 154.5 found at 30 degrees
+
+Lead Finder version 2112 build 1, 24 December 2021
+
+
+Random seed: 19 137
+Task: fast template docking
+
+
+
+Docking results for Ligand_1.sdf
+Time of docking:      10.83 s
+
+Ligand properties:
+  Molar weight              : 350.199
+  N(heavy atoms)            : 23
+  N(freely rotatable bonds) : 4
+
+
+Optimized reference dG, kcal/mol :   -9.21936
+Optimized reference VS score     :  -10.13558
+Optimized reference rank score   :   -5.60720
+
+Optimized reference init. RMS, A :    0.00000
+Optimized reference final RMS, A :    0.54992
+
+Top pose dG, kcal/mol         :   -9.12411
+Top pose VS score             :  -10.17266
+Top pose RMS, A               :    1.42472
+Top pose LE, (kcal/mol)/atom  :   -0.39670
+
+Pose with best free energy of binding has dG, kcal/mol    :   -9.30408 
+Pose with best free energy of binding has VS score        :  -10.19449 
+Pose with best free energy of binding has RMS, A          :    0.52347 
+
+Nearest pose dG, kcal/mol :   -9.30408 
+Nearest pose VS score     :  -10.19449 
+Nearest pose RMS, A       :    0.52347 
+Nearest pose rank         :   1
+
+Pose           dG, kcal/mol        VS score   LE, (kcal/mol)/atom   Rank score     RMS, A
+    0              -9.12411       -10.17266        -0.39670        -5.58236         1.42472
+    1              -9.30408       -10.19449        -0.40453        -5.57927         0.52347
+    2              -8.70891        -9.52220        -0.37865        -5.02752         1.40987
+    3              -7.52757        -8.33228        -0.32729        -4.54907         5.18713
+    4              -7.69849        -8.35989        -0.33472        -4.53914         4.75105
+    5              -7.87548        -8.79522        -0.34241        -4.38911         3.07260
+    6              -8.12998        -8.79322        -0.35348        -4.16862         6.00839
+    7              -7.74826        -8.78378        -0.33688        -4.14495         2.53698
+    8              -7.06471        -8.22375        -0.30716        -3.94289         8.29458
+    9              -8.09590        -8.89677        -0.35200        -3.89098         7.85897
+
+
+----------------------------
+Detailed energy of pose     0 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04298	   0.00000	  -0.27574	   0.01808	   0.00004	  -0.00004	   0.00000	  -0.30062	
+C	  1	   0.063	A	  -0.05685	   0.00000	  -0.31290	   0.11196	   0.00148	   0.00334	   0.00000	  -0.25297	
+C	  2	   0.012	A	  -0.05849	   0.00000	  -0.40988	   0.12410	  -0.00075	   0.00091	   0.00000	  -0.34411	
+C	  7	   0.063	A	  -0.04570	   0.00000	  -0.29105	   0.06248	  -0.00273	  -0.00390	   0.00000	  -0.28091	
+C	  8	   0.002	A	  -0.06290	   0.00000	  -0.40715	   0.07558	  -0.00023	  -0.00003	   0.00000	  -0.39474	
+C	  9	   0.012	A	  -0.05444	   0.00000	  -0.37401	   0.03934	  -0.00107	  -0.00091	   0.00000	  -0.39109	
+Cl	 10	  -0.082	Cl	  -0.63299	   0.00000	  -0.37928	  -0.03258	  -0.01215	   0.00642	   0.00000	  -1.05058	
+Cl	 22	  -0.082	Cl	  -0.46183	   0.00000	  -0.33287	  -0.00299	   0.00505	  -0.00949	   0.00000	  -0.80213	
+C	  3	   0.063	A	  -0.04573	   0.00000	  -0.29480	   0.00379	   0.00162	  -0.00269	   0.00000	  -0.33782	
+C	  5	   0.038	A	  -0.05601	   0.00000	  -0.38872	   0.01555	   0.00084	   0.02594	   0.00000	  -0.40240	
+C	  6	   0.102	A	  -0.07071	   0.00000	  -0.49323	   0.00000	   0.00180	   0.00065	   0.00000	  -0.56148	
+N	 13	  -0.227	N	  -0.23658	   0.00000	  -0.07068	  -0.29210	  -0.02262	   0.00701	   0.00000	  -0.61496	
+C	 14	   0.144	A	  -0.07395	   0.00000	  -0.37318	   0.00000	   0.00526	   0.00467	   0.00000	  -0.43720	
+C	 15	   0.054	A	  -0.05119	   0.00000	  -0.33213	   0.05034	   0.00117	   0.03146	   0.00000	  -0.30035	
+C	  4	   0.259	C	  -0.14448	   0.00000	  -0.20973	   0.00000	   0.01012	   0.00395	   0.00000	  -0.34015	
+O	 11	  -0.267	O	  -0.07202	   0.00000	  -0.07717	   0.02010	  -0.00336	   0.02560	   0.00000	  -0.10685	
+N	 12	  -0.321	NX	  -0.00811	   0.00000	  -0.04554	   0.00000	   0.00280	  -0.00627	   0.00000	  -0.05712	
+H	 28	   0.169	H	  -0.04756	   0.00000	  -0.03198	   0.02401	   0.00966	  -0.00012	   0.00000	  -0.04599	
+N	 16	  -0.310	NX	  -0.01504	   0.00000	  -0.07741	   0.00000	   0.02893	   0.00021	   0.00000	  -0.06331	
+C	 17	   0.235	C	  -0.23030	   0.00000	  -0.27014	   0.00000	   0.00302	   0.00611	   0.00000	  -0.49131	
+O	 18	  -0.272	O	  -0.07033	   0.00000	  -0.05570	   0.02241	   0.00388	   0.03029	   0.00000	  -0.06945	
+H	 30	   0.170	H	  -0.17034	   0.00000	  -0.03991	  -0.19702	  -0.04769	   0.00124	   0.00000	  -0.45371	
+C	 19	   0.079	C	  -0.24182	   0.00000	  -0.30744	   0.01049	  -0.00207	   0.00004	   0.00000	  -0.54080	
+C	 20	   0.010	C	  -0.19966	   0.00000	  -0.34705	   0.05766	   0.00049	   0.00138	   0.00000	  -0.48718	
+C	 21	   0.010	C	  -0.17385	   0.00000	  -0.31165	   0.00256	  -0.00012	   0.00672	   0.00000	  -0.47634	
+Total Energy components : 
+ E(LJ)    	  -3.32386
+ E(metal)	   0.00000
+ E(sol)   	  -6.50933
+ E(H-bonds)	   0.11377
+ E(elect)	  -0.01665
+ E(internal)	   0.13249
+ E(tors)	   0.47040
+ E(dihedral)	   0.00907
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -9.12411
+
+
+----------------------------
+Detailed energy of pose     1 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04113	   0.00000	  -0.26199	   0.00152	   0.00093	  -0.00002	   0.00000	  -0.30068	
+C	  1	   0.063	A	  -0.05159	   0.00000	  -0.29943	   0.05596	  -0.00157	   0.00329	   0.00000	  -0.29333	
+C	  2	   0.012	A	  -0.06000	   0.00000	  -0.38114	   0.07319	  -0.00137	   0.00072	   0.00000	  -0.36860	
+C	  7	   0.063	A	  -0.05554	   0.00000	  -0.28234	   0.00009	  -0.00003	  -0.00291	   0.00000	  -0.34073	
+C	  8	   0.002	A	  -0.05379	   0.00000	  -0.38811	   0.02359	  -0.00023	  -0.00004	   0.00000	  -0.41858	
+C	  9	   0.012	A	  -0.04801	   0.00000	  -0.36045	   0.00032	  -0.00077	  -0.00073	   0.00000	  -0.40963	
+Cl	 10	  -0.082	Cl	  -0.60649	   0.00000	  -0.36390	  -0.01886	  -0.00077	   0.00894	   0.00000	  -0.98108	
+Cl	 22	  -0.082	Cl	  -0.69368	   0.00000	  -0.35464	  -0.00051	  -0.00206	  -0.00474	   0.00000	  -1.05564	
+C	  3	   0.063	A	  -0.04588	   0.00000	  -0.29164	   0.00384	   0.00161	  -0.00233	   0.00000	  -0.33439	
+C	  5	   0.038	A	  -0.05554	   0.00000	  -0.38609	   0.01537	   0.00098	   0.09875	   0.00000	  -0.32654	
+C	  6	   0.102	A	  -0.07024	   0.00000	  -0.49334	   0.00000	   0.00281	  -0.00076	   0.00000	  -0.56153	
+N	 13	  -0.227	N	  -0.23798	   0.00000	  -0.07402	  -0.30040	  -0.02072	   0.00709	   0.00000	  -0.62603	
+C	 14	   0.144	A	  -0.07419	   0.00000	  -0.37129	   0.00000	   0.00449	   0.00575	   0.00000	  -0.43524	
+C	 15	   0.054	A	  -0.05218	   0.00000	  -0.34998	   0.04998	   0.00065	   0.03394	   0.00000	  -0.31760	
+C	  4	   0.259	C	  -0.14273	   0.00000	  -0.21345	   0.00000	   0.01217	   0.00924	   0.00000	  -0.33477	
+O	 11	  -0.267	O	  -0.07125	   0.00000	  -0.06739	   0.02212	  -0.00671	   0.09825	   0.00000	  -0.02498	
+N	 12	  -0.321	NX	  -0.00804	   0.00000	  -0.04097	   0.00000	   0.00345	  -0.00535	   0.00000	  -0.05091	
+H	 28	   0.169	H	  -0.04353	   0.00000	  -0.00217	   0.02400	   0.00591	  -0.00022	   0.00000	  -0.01600	
+N	 16	  -0.310	NX	  -0.01351	   0.00000	  -0.07688	   0.00000	   0.03541	   0.00066	   0.00000	  -0.05432	
+C	 17	   0.235	C	  -0.23643	   0.00000	  -0.27273	   0.00000	   0.00177	   0.00655	   0.00000	  -0.50083	
+O	 18	  -0.272	O	  -0.06597	   0.00000	  -0.05258	   0.02238	   0.00375	   0.02898	   0.00000	  -0.06344	
+H	 30	   0.170	H	  -0.17675	   0.00000	  -0.04098	  -0.20024	  -0.05982	   0.00127	   0.00000	  -0.47652	
+C	 19	   0.079	C	  -0.24018	   0.00000	  -0.31018	   0.02449	  -0.00318	   0.00025	   0.00000	  -0.52880	
+C	 20	   0.010	C	  -0.19596	   0.00000	  -0.33796	   0.06147	   0.00050	   0.00236	   0.00000	  -0.46959	
+C	 21	   0.010	C	  -0.17777	   0.00000	  -0.31994	   0.00748	  -0.00030	   0.00582	   0.00000	  -0.48472	
+Total Energy components : 
+ E(LJ)    	  -3.51837
+ E(metal)	   0.00000
+ E(sol)   	  -6.39360
+ E(H-bonds)	  -0.13421
+ E(elect)	  -0.02306
+ E(internal)	   0.29477
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -9.30408
+
+
+----------------------------
+Detailed energy of pose     2 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.03899	   0.00000	  -0.25425	   0.00072	  -0.00112	  -0.00011	   0.00000	  -0.29375	
+C	  1	   0.063	A	  -0.05188	   0.00000	  -0.30041	   0.00995	  -0.00148	   0.00381	   0.00000	  -0.34001	
+C	  2	   0.012	A	  -0.06118	   0.00000	  -0.38872	   0.03985	  -0.00135	   0.00070	   0.00000	  -0.41070	
+C	  7	   0.063	A	  -0.03938	   0.00000	  -0.26771	   0.00050	  -0.00223	  -0.00323	   0.00000	  -0.31204	
+C	  8	   0.002	A	  -0.05799	   0.00000	  -0.38709	   0.04247	  -0.00020	  -0.00004	   0.00000	  -0.40286	
+C	  9	   0.012	A	  -0.04783	   0.00000	  -0.34836	   0.00098	  -0.00055	  -0.00092	   0.00000	  -0.39669	
+Cl	 10	  -0.082	Cl	  -0.55283	   0.00000	  -0.35973	  -0.03125	  -0.00607	   0.01437	   0.00000	  -0.93551	
+Cl	 22	  -0.082	Cl	  -0.35344	   0.00000	  -0.30113	  -0.00102	   0.00522	  -0.00592	   0.00000	  -0.65630	
+C	  3	   0.063	A	  -0.03952	   0.00000	  -0.28247	   0.00185	   0.00123	  -0.00247	   0.00000	  -0.32137	
+C	  5	   0.038	A	  -0.04849	   0.00000	  -0.37044	   0.00531	   0.00095	   0.00746	   0.00000	  -0.40521	
+C	  6	   0.102	A	  -0.06794	   0.00000	  -0.47490	   0.00000	   0.00263	   0.00145	   0.00000	  -0.53876	
+N	 13	  -0.227	N	  -0.21531	   0.00000	  -0.07140	  -0.07355	  -0.01167	   0.00695	   0.00000	  -0.36499	
+C	 14	   0.144	A	  -0.06886	   0.00000	  -0.35365	   0.00000	   0.00367	   0.00421	   0.00000	  -0.41463	
+C	 15	   0.054	A	  -0.04849	   0.00000	  -0.31770	   0.03105	   0.00100	   0.02563	   0.00000	  -0.30851	
+C	  4	   0.259	C	  -0.13765	   0.00000	  -0.19072	   0.00000	   0.00670	   0.00139	   0.00000	  -0.32027	
+O	 11	  -0.267	O	  -0.06220	   0.00000	  -0.07703	   0.02243	  -0.00297	   0.01751	   0.00000	  -0.10227	
+N	 12	  -0.321	NX	  -0.00733	   0.00000	  -0.04828	   0.00000	   0.00718	  -0.00196	   0.00000	  -0.05038	
+H	 28	   0.169	H	  -0.06211	   0.00000	  -0.03539	   0.02385	   0.00697	  -0.00023	   0.00000	  -0.06690	
+N	 16	  -0.310	NX	  -0.01559	   0.00000	  -0.07860	   0.00000	   0.02775	   0.00009	   0.00000	  -0.06635	
+C	 17	   0.235	C	  -0.22855	   0.00000	  -0.26715	   0.00000	   0.00282	   0.00514	   0.00000	  -0.48775	
+O	 18	  -0.272	O	  -0.07377	   0.00000	  -0.04652	   0.02239	   0.00457	   0.02474	   0.00000	  -0.06859	
+H	 30	   0.170	H	  -0.16115	   0.00000	  -0.04007	  -0.20234	  -0.04650	   0.00121	   0.00000	  -0.44886	
+C	 19	   0.079	C	  -0.25171	   0.00000	  -0.30292	   0.01896	  -0.00211	   0.00000	   0.00000	  -0.53778	
+C	 20	   0.010	C	  -0.19904	   0.00000	  -0.32027	   0.06627	   0.00051	   0.00249	   0.00000	  -0.45006	
+C	 21	   0.010	C	  -0.17350	   0.00000	  -0.31786	   0.00804	  -0.00035	   0.00489	   0.00000	  -0.47878	
+Total Energy components : 
+ E(LJ)    	  -3.06472
+ E(metal)	   0.00000
+ E(sol)   	  -6.20279
+ E(H-bonds)	  -0.01355
+ E(elect)	  -0.00539
+ E(internal)	   0.10714
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -8.70891
+
+
+----------------------------
+Detailed energy of pose     3 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04423	   0.00000	  -0.23207	   0.00022	  -0.00192	   0.00004	   0.00000	  -0.27797	
+C	  1	   0.063	A	  -0.03992	   0.00000	  -0.24706	   0.00150	  -0.00498	  -0.00135	   0.00000	  -0.29181	
+C	  2	   0.012	A	  -0.04583	   0.00000	  -0.32689	   0.00493	  -0.00044	  -0.00052	   0.00000	  -0.36876	
+C	  7	   0.063	A	  -0.04981	   0.00000	  -0.27108	   0.00000	   0.00078	   0.00124	   0.00000	  -0.31886	
+C	  8	   0.002	A	  -0.06156	   0.00000	  -0.38329	   0.00017	   0.00001	  -0.00004	   0.00000	  -0.44470	
+C	  9	   0.012	A	  -0.05128	   0.00000	  -0.37475	   0.00003	   0.00024	   0.00033	   0.00000	  -0.42543	
+Cl	 10	  -0.082	Cl	  -0.41082	   0.00000	  -0.28419	  -0.01646	   0.01868	  -0.00158	   0.00000	  -0.69438	
+Cl	 22	  -0.082	Cl	  -0.45934	   0.00000	  -0.36362	  -0.00004	  -0.00182	   0.00438	   0.00000	  -0.82044	
+C	  3	   0.063	A	  -0.04371	   0.00000	  -0.23060	   0.04696	  -0.00004	  -0.00147	   0.00000	  -0.22884	
+C	  5	   0.038	A	  -0.04312	   0.00000	  -0.34580	   0.00767	   0.00061	   0.00301	   0.00000	  -0.37764	
+C	  6	   0.102	A	  -0.05489	   0.00000	  -0.36848	   0.00000	   0.00214	   0.00148	   0.00000	  -0.41975	
+N	 13	  -0.227	N	  -0.12480	   0.00000	   0.00307	   0.00834	   0.00961	   0.00207	   0.00000	  -0.10172	
+C	 14	   0.144	A	  -0.03686	   0.00000	  -0.22915	   0.00000	  -0.00510	  -0.00033	   0.00000	  -0.27143	
+C	 15	   0.054	A	  -0.03566	   0.00000	  -0.25343	   0.23980	  -0.00043	  -0.00364	   0.00000	  -0.05336	
+C	  4	   0.259	C	  -0.16804	   0.00000	  -0.18419	   0.00000	   0.00080	   0.00044	   0.00000	  -0.35099	
+O	 11	  -0.267	O	  -0.07700	   0.00000	  -0.07940	   0.02199	   0.00154	   0.00174	   0.00000	  -0.13113	
+N	 12	  -0.321	NX	  -0.01004	   0.00000	  -0.04566	   0.00000	   0.02117	   0.00537	   0.00000	  -0.02916	
+H	 28	   0.169	H	  -0.08505	   0.00000	  -0.03255	  -0.00275	  -0.01059	  -0.00020	   0.00000	  -0.13115	
+N	 16	  -0.310	NX	  -0.01002	   0.00000	  -0.04969	   0.00000	   0.04562	  -0.00007	   0.00000	  -0.01416	
+C	 17	   0.235	C	  -0.16579	   0.00000	  -0.18637	   0.00000	  -0.02010	   0.00100	   0.00000	  -0.37126	
+O	 18	  -0.272	O	  -0.04506	   0.00000	   0.04335	  -0.00000	   0.02197	   0.00231	   0.00000	   0.02257	
+H	 30	   0.170	H	  -0.11473	   0.00000	  -0.03447	  -0.16397	  -0.04290	   0.00026	   0.00000	  -0.35580	
+C	 19	   0.079	C	  -0.19992	   0.00000	  -0.29663	   0.00469	  -0.00740	  -0.00012	   0.00000	  -0.49938	
+C	 20	   0.010	C	  -0.24113	   0.00000	  -0.33673	   0.02204	  -0.00047	  -0.00511	   0.00000	  -0.56140	
+C	 21	   0.010	C	  -0.22176	   0.00000	  -0.28214	   0.01653	  -0.00017	   0.00653	   0.00000	  -0.48101	
+Total Energy components : 
+ E(LJ)    	  -2.84040
+ E(metal)	   0.00000
+ E(sol)   	  -5.39182
+ E(H-bonds)	   0.19165
+ E(elect)	   0.02683
+ E(internal)	   0.01576
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -7.52757
+
+
+----------------------------
+Detailed energy of pose     4 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04273	   0.00000	  -0.23149	   0.00025	  -0.00240	  -0.00054	   0.00000	  -0.27691	
+C	  1	   0.063	A	  -0.04072	   0.00000	  -0.24789	   0.00182	  -0.00416	   0.00362	   0.00000	  -0.28733	
+C	  2	   0.012	A	  -0.04731	   0.00000	  -0.33209	   0.00314	  -0.00028	   0.00052	   0.00000	  -0.37602	
+C	  7	   0.063	A	  -0.04889	   0.00000	  -0.26509	   0.00000	   0.00046	  -0.00246	   0.00000	  -0.31598	
+C	  8	   0.002	A	  -0.06290	   0.00000	  -0.38870	   0.00016	   0.00001	  -0.00004	   0.00000	  -0.45147	
+C	  9	   0.012	A	  -0.05133	   0.00000	  -0.37627	   0.00003	   0.00024	  -0.00082	   0.00000	  -0.42816	
+Cl	 10	  -0.082	Cl	  -0.41659	   0.00000	  -0.29374	  -0.02326	   0.01425	   0.01936	   0.00000	  -0.69999	
+Cl	 22	  -0.082	Cl	  -0.46370	   0.00000	  -0.33936	  -0.00005	  -0.00242	   0.00020	   0.00000	  -0.80532	
+C	  3	   0.063	A	  -0.04855	   0.00000	  -0.27231	   0.00903	   0.00049	  -0.00192	   0.00000	  -0.31326	
+C	  5	   0.038	A	  -0.06446	   0.00000	  -0.39552	   0.00174	  -0.00001	   0.00174	   0.00000	  -0.45652	
+C	  6	   0.102	A	  -0.07289	   0.00000	  -0.43820	   0.00000	  -0.00217	   0.00280	   0.00000	  -0.51045	
+N	 13	  -0.227	N	  -0.15617	   0.00000	  -0.03982	   0.01661	   0.01240	   0.00313	   0.00000	  -0.16386	
+C	 14	   0.144	A	  -0.03955	   0.00000	  -0.23530	   0.00000	  -0.00189	  -0.00138	   0.00000	  -0.27813	
+C	 15	   0.054	A	  -0.03905	   0.00000	  -0.24909	   0.06852	   0.00004	   0.01679	   0.00000	  -0.20279	
+C	  4	   0.259	C	  -0.16816	   0.00000	  -0.18560	   0.00000	  -0.00181	   0.00012	   0.00000	  -0.35546	
+O	 11	  -0.267	O	  -0.08861	   0.00000	  -0.06745	  -0.06976	  -0.00073	   0.02274	   0.00000	  -0.20381	
+N	 12	  -0.321	NX	  -0.01030	   0.00000	  -0.04433	   0.00000	   0.01232	   0.00318	   0.00000	  -0.03914	
+H	 28	   0.169	H	  -0.11181	   0.00000	  -0.03189	   0.02363	   0.00820	   0.00006	   0.00000	  -0.11181	
+N	 16	  -0.310	NX	  -0.00795	   0.00000	  -0.01408	   0.00000	   0.02534	  -0.00080	   0.00000	   0.00251	
+C	 17	   0.235	C	  -0.18968	   0.00000	  -0.20319	   0.00000	  -0.02706	   0.00033	   0.00000	  -0.41960	
+O	 18	  -0.272	O	  -0.14006	   0.00000	  -0.07710	   0.02094	   0.05057	   0.00585	   0.00000	  -0.13980	
+H	 30	   0.170	H	  -0.02197	   0.00000	   0.04472	   0.01803	  -0.00010	  -0.00011	   0.00000	   0.04057	
+C	 19	   0.079	C	  -0.16919	   0.00000	  -0.21108	   0.00141	  -0.00569	  -0.00042	   0.00000	  -0.38499	
+C	 20	   0.010	C	  -0.24224	   0.00000	  -0.37422	   0.00382	  -0.00072	  -0.00003	   0.00000	  -0.61340	
+C	 21	   0.010	C	  -0.15585	   0.00000	  -0.23407	   0.01266	  -0.00047	  -0.00005	   0.00000	  -0.37778	
+Total Energy components : 
+ E(LJ)    	  -2.90069
+ E(metal)	   0.00000
+ E(sol)   	  -5.50318
+ E(H-bonds)	   0.08872
+ E(elect)	   0.07442
+ E(internal)	   0.07184
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -7.69849
+
+
+----------------------------
+Detailed energy of pose     5 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04023	   0.00000	  -0.27528	   0.00000	   0.00265	   0.00004	   0.00000	  -0.31282	
+C	  1	   0.063	A	  -0.04397	   0.00000	  -0.31163	   0.00114	   0.00308	   0.00277	   0.00000	  -0.34860	
+C	  2	   0.012	A	  -0.05234	   0.00000	  -0.40408	   0.03599	   0.00084	   0.00065	   0.00000	  -0.41895	
+C	  7	   0.063	A	  -0.04648	   0.00000	  -0.29960	   0.00001	   0.00113	  -0.00300	   0.00000	  -0.34793	
+C	  8	   0.002	A	  -0.05662	   0.00000	  -0.42144	   0.11647	   0.00008	  -0.00002	   0.00000	  -0.36153	
+C	  9	   0.012	A	  -0.05255	   0.00000	  -0.39596	   0.00193	   0.00002	  -0.00061	   0.00000	  -0.44717	
+Cl	 10	  -0.082	Cl	  -0.47658	   0.00000	  -0.35904	  -0.00048	  -0.00243	   0.00487	   0.00000	  -0.83366	
+Cl	 22	  -0.082	Cl	  -0.56024	   0.00000	  -0.31365	  -0.00008	   0.00169	  -0.00696	   0.00000	  -0.87923	
+C	  3	   0.063	A	  -0.05128	   0.00000	  -0.29573	   0.00722	   0.00112	  -0.00211	   0.00000	  -0.34078	
+C	  5	   0.038	A	  -0.06525	   0.00000	  -0.39153	   0.18675	   0.00072	   0.02232	   0.00000	  -0.24699	
+C	  6	   0.102	A	  -0.06380	   0.00000	  -0.47355	   0.00000	  -0.00516	  -0.00047	   0.00000	  -0.54298	
+N	 13	  -0.227	N	  -0.18326	   0.00000	  -0.06780	   0.01675	   0.00802	   0.00435	   0.00000	  -0.22193	
+C	 14	   0.144	A	  -0.04284	   0.00000	  -0.29831	   0.00000	   0.00232	   0.00229	   0.00000	  -0.33654	
+C	 15	   0.054	A	  -0.05004	   0.00000	  -0.29978	   0.01546	   0.00028	   0.02781	   0.00000	  -0.30627	
+C	  4	   0.259	C	  -0.16286	   0.00000	  -0.20963	   0.00000	   0.01192	   0.00442	   0.00000	  -0.35615	
+O	 11	  -0.267	O	  -0.05062	   0.00000	  -0.07994	   0.02240	  -0.00549	   0.02367	   0.00000	  -0.08998	
+N	 12	  -0.321	NX	  -0.00865	   0.00000	  -0.04890	   0.00000	   0.00555	  -0.00755	   0.00000	  -0.05954	
+H	 28	   0.169	H	  -0.05302	   0.00000	  -0.03369	   0.02404	   0.00688	  -0.00004	   0.00000	  -0.05583	
+N	 16	  -0.310	NX	  -0.00830	   0.00000	  -0.05102	   0.00000	   0.00644	   0.00111	   0.00000	  -0.05177	
+C	 17	   0.235	C	  -0.14728	   0.00000	  -0.20246	   0.00000	  -0.00666	   0.00515	   0.00000	  -0.35126	
+O	 18	  -0.272	O	  -0.09812	   0.00000	  -0.08399	  -0.15853	   0.01730	   0.02427	   0.00000	  -0.29908	
+H	 30	   0.170	H	  -0.03769	   0.00000	  -0.00347	   0.02404	   0.00577	   0.00002	   0.00000	  -0.01134	
+C	 19	   0.079	C	  -0.13113	   0.00000	  -0.17201	   0.00859	  -0.00546	   0.00025	   0.00000	  -0.29976	
+C	 20	   0.010	C	  -0.18266	   0.00000	  -0.32001	   0.02210	  -0.00116	  -0.00011	   0.00000	  -0.48185	
+C	 21	   0.010	C	  -0.12604	   0.00000	  -0.22679	   0.00367	  -0.00075	   0.00047	   0.00000	  -0.34944	
+Total Energy components : 
+ E(LJ)    	  -2.79185
+ E(metal)	   0.00000
+ E(sol)   	  -6.03929
+ E(H-bonds)	   0.32748
+ E(elect)	   0.04867
+ E(internal)	   0.10359
+ E(tors)	   0.47040
+ E(dihedral)	   0.00551
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -7.87548
+
+
+----------------------------
+Detailed energy of pose     6 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.05345	   0.00000	  -0.29821	   0.03713	   0.00181	   0.00016	   0.00000	  -0.31255	
+C	  1	   0.063	A	  -0.05088	   0.00000	  -0.35243	   0.12162	   0.00230	   0.00423	   0.00000	  -0.27515	
+C	  2	   0.012	A	  -0.05206	   0.00000	  -0.42918	   0.01210	   0.00043	   0.00097	   0.00000	  -0.46774	
+C	  7	   0.063	A	  -0.04278	   0.00000	  -0.27108	   0.00101	   0.00082	  -0.00374	   0.00000	  -0.31577	
+C	  8	   0.002	A	  -0.04519	   0.00000	  -0.41106	   0.00007	   0.00003	   0.00003	   0.00000	  -0.45611	
+C	  9	   0.012	A	  -0.04099	   0.00000	  -0.33798	   0.00002	   0.00007	  -0.00091	   0.00000	  -0.37980	
+Cl	 10	  -0.082	Cl	  -0.71039	   0.00000	  -0.41862	  -0.08942	  -0.00740	   0.01144	   0.00000	  -1.21439	
+Cl	 22	  -0.082	Cl	  -0.44138	   0.00000	  -0.29848	  -0.00390	   0.00011	  -0.00742	   0.00000	  -0.75107	
+C	  3	   0.063	A	  -0.04787	   0.00000	  -0.24994	   0.00371	   0.00067	   0.00058	   0.00000	  -0.29285	
+C	  5	   0.038	A	  -0.04595	   0.00000	  -0.33485	   0.12148	   0.00208	   0.00339	   0.00000	  -0.25386	
+C	  6	   0.102	A	  -0.04419	   0.00000	  -0.31100	   0.00000	   0.00883	   0.00025	   0.00000	  -0.34611	
+N	 13	  -0.227	N	  -0.07525	   0.00000	   0.03726	  -0.00001	   0.00222	   0.00065	   0.00000	  -0.03513	
+C	 14	   0.144	A	  -0.04073	   0.00000	  -0.21834	   0.00000	  -0.00538	  -0.00029	   0.00000	  -0.26473	
+C	 15	   0.054	A	  -0.01793	   0.00000	  -0.28274	   0.01918	  -0.00065	  -0.00242	   0.00000	  -0.28456	
+C	  4	   0.259	C	  -0.21814	   0.00000	  -0.23097	   0.00000	   0.00706	   0.00091	   0.00000	  -0.44114	
+O	 11	  -0.267	O	  -0.10096	   0.00000	  -0.07942	   0.02129	   0.03509	   0.00742	   0.00000	  -0.11659	
+N	 12	  -0.321	NX	  -0.01084	   0.00000	  -0.04300	   0.00000	   0.00650	  -0.00043	   0.00000	  -0.04777	
+H	 28	   0.169	H	  -0.09760	   0.00000	  -0.03350	   0.02341	   0.00844	  -0.00000	   0.00000	  -0.09925	
+N	 16	  -0.310	NX	  -0.00911	   0.00000	  -0.04957	   0.00000	   0.04222	  -0.00066	   0.00000	  -0.01711	
+C	 17	   0.235	C	  -0.15368	   0.00000	  -0.18211	   0.00000	  -0.01761	   0.00094	   0.00000	  -0.35246	
+O	 18	  -0.272	O	  -0.03976	   0.00000	   0.04707	  -0.00000	   0.01831	   0.00167	   0.00000	   0.02729	
+H	 30	   0.170	H	  -0.09998	   0.00000	  -0.03299	  -0.14788	  -0.04252	  -0.00020	   0.00000	  -0.32356	
+C	 19	   0.079	C	  -0.22357	   0.00000	  -0.29710	   0.00443	  -0.00752	   0.00006	   0.00000	  -0.52369	
+C	 20	   0.010	C	  -0.24186	   0.00000	  -0.32890	   0.03115	  -0.00025	  -0.00565	   0.00000	  -0.54551	
+C	 21	   0.010	C	  -0.22307	   0.00000	  -0.30658	   0.01185	  -0.00030	   0.00733	   0.00000	  -0.51077	
+Total Energy components : 
+ E(LJ)    	  -3.12760
+ E(metal)	   0.00000
+ E(sol)   	  -5.71371
+ E(H-bonds)	   0.16725
+ E(elect)	   0.05538
+ E(internal)	   0.01830
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -8.12998
+
+
+----------------------------
+Detailed energy of pose     7 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.03942	   0.00000	  -0.26522	   0.00015	   0.00193	  -0.00014	   0.00000	  -0.30271	
+C	  1	   0.063	A	  -0.04637	   0.00000	  -0.30880	   0.01046	   0.00334	   0.00342	   0.00000	  -0.33794	
+C	  2	   0.012	A	  -0.06150	   0.00000	  -0.41165	   0.27445	   0.00124	   0.00094	   0.00000	  -0.19653	
+C	  7	   0.063	A	  -0.05042	   0.00000	  -0.30179	   0.00008	   0.00084	  -0.00415	   0.00000	  -0.35544	
+C	  8	   0.002	A	  -0.04464	   0.00000	  -0.44520	   0.17007	   0.00014	  -0.00001	   0.00000	  -0.31963	
+C	  9	   0.012	A	  -0.05487	   0.00000	  -0.41160	   0.00298	   0.00005	  -0.00090	   0.00000	  -0.46433	
+Cl	 10	  -0.082	Cl	  -0.48326	   0.00000	  -0.35387	  -0.01615	  -0.00456	   0.00675	   0.00000	  -0.85110	
+Cl	 22	  -0.082	Cl	  -0.54078	   0.00000	  -0.30608	  -0.00010	   0.00084	  -0.01057	   0.00000	  -0.85670	
+C	  3	   0.063	A	  -0.04551	   0.00000	  -0.28892	   0.00184	   0.00154	  -0.00106	   0.00000	  -0.33212	
+C	  5	   0.038	A	  -0.05446	   0.00000	  -0.40959	   0.11489	   0.00102	   0.00272	   0.00000	  -0.34543	
+C	  6	   0.102	A	  -0.07208	   0.00000	  -0.47699	   0.00000	   0.00093	   0.00151	   0.00000	  -0.54664	
+N	 13	  -0.227	N	  -0.17669	   0.00000	  -0.06605	   0.01681	   0.00479	   0.00249	   0.00000	  -0.21864	
+C	 14	   0.144	A	  -0.05019	   0.00000	  -0.29492	   0.00000	   0.00257	   0.00043	   0.00000	  -0.34211	
+C	 15	   0.054	A	  -0.04412	   0.00000	  -0.30156	   0.00192	   0.00021	  -0.00003	   0.00000	  -0.34359	
+C	  4	   0.259	C	  -0.13435	   0.00000	  -0.18462	   0.00000	   0.00742	  -0.00057	   0.00000	  -0.31212	
+O	 11	  -0.267	O	  -0.00797	   0.00000	  -0.07922	   0.02242	   0.00638	   0.00149	   0.00000	  -0.05690	
+N	 12	  -0.321	NX	  -0.00966	   0.00000	  -0.04889	   0.00000	   0.00171	  -0.00534	   0.00000	  -0.06218	
+H	 28	   0.169	H	  -0.10946	   0.00000	  -0.04154	   0.02404	   0.01514	   0.00021	   0.00000	  -0.11162	
+N	 16	  -0.310	NX	  -0.00863	   0.00000	  -0.05529	   0.00000	   0.01042	  -0.00067	   0.00000	  -0.05417	
+C	 17	   0.235	C	  -0.15069	   0.00000	  -0.19759	   0.00000	  -0.00883	   0.00057	   0.00000	  -0.35654	
+O	 18	  -0.272	O	  -0.07853	   0.00000	  -0.08437	  -0.20360	   0.00157	   0.00319	   0.00000	  -0.36175	
+H	 30	   0.170	H	  -0.05553	   0.00000	  -0.03476	   0.02404	   0.00674	  -0.00007	   0.00000	  -0.05959	
+C	 19	   0.079	C	  -0.11435	   0.00000	  -0.18194	   0.01495	  -0.00474	  -0.00010	   0.00000	  -0.28618	
+C	 20	   0.010	C	  -0.15455	   0.00000	  -0.28247	   0.01760	  -0.00094	   0.00116	   0.00000	  -0.41921	
+C	 21	   0.010	C	  -0.10639	   0.00000	  -0.22865	   0.00073	  -0.00036	   0.00009	   0.00000	  -0.33457	
+Total Energy components : 
+ E(LJ)    	  -2.69444
+ E(metal)	   0.00000
+ E(sol)   	  -6.06157
+ E(H-bonds)	   0.47757
+ E(elect)	   0.04937
+ E(internal)	   0.00133
+ E(tors)	   0.47040
+ E(dihedral)	   0.00908
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -7.74826
+
+
+----------------------------
+Detailed energy of pose     8 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04870	   0.00000	  -0.22233	   0.07496	  -0.01018	   0.00026	   0.00000	  -0.20600	
+C	  1	   0.063	A	  -0.03627	   0.00000	  -0.20442	   0.00145	  -0.00441	  -0.00080	   0.00000	  -0.24444	
+C	  2	   0.012	A	  -0.02267	   0.00000	  -0.19966	   0.00101	  -0.00098	  -0.00005	   0.00000	  -0.22235	
+C	  7	   0.063	A	  -0.05547	   0.00000	  -0.27084	   0.12344	  -0.01096	   0.00003	   0.00000	  -0.21380	
+C	  8	   0.002	A	  -0.03085	   0.00000	  -0.26654	   0.05792	  -0.00027	   0.00001	   0.00000	  -0.23974	
+C	  9	   0.012	A	  -0.04901	   0.00000	  -0.31853	   0.27458	  -0.00216	   0.00018	   0.00000	  -0.09495	
+Cl	 10	  -0.082	Cl	  -0.35410	   0.00000	  -0.22779	  -0.00084	  -0.00234	  -0.00532	   0.00000	  -0.59040	
+Cl	 22	  -0.082	Cl	  -0.63938	   0.00000	  -0.36814	  -0.02025	   0.02885	  -0.00086	   0.00000	  -0.99979	
+C	  3	   0.063	A	  -0.05785	   0.00000	  -0.26910	   0.14383	  -0.00860	   0.00002	   0.00000	  -0.19171	
+C	  5	   0.038	A	  -0.03297	   0.00000	  -0.31959	   0.00393	  -0.00139	  -0.00177	   0.00000	  -0.35179	
+C	  6	   0.102	A	  -0.04668	   0.00000	  -0.40098	   0.00000	  -0.00582	  -0.00010	   0.00000	  -0.45358	
+N	 13	  -0.227	N	  -0.12390	   0.00000	  -0.04481	   0.01683	   0.02084	   0.00238	   0.00000	  -0.12867	
+C	 14	   0.144	A	  -0.05638	   0.00000	  -0.29812	   0.00000	  -0.01097	   0.00339	   0.00000	  -0.36208	
+C	 15	   0.054	A	  -0.06239	   0.00000	  -0.33922	   0.15179	  -0.00872	   0.00094	   0.00000	  -0.25761	
+C	  4	   0.259	C	  -0.19628	   0.00000	  -0.17671	   0.00000	  -0.03226	   0.00073	   0.00000	  -0.40452	
+O	 11	  -0.267	O	  -0.08739	   0.00000	  -0.08118	   0.01410	   0.02756	  -0.00180	   0.00000	  -0.12872	
+N	 12	  -0.321	NX	  -0.00817	   0.00000	  -0.04893	   0.00000	   0.07375	  -0.00405	   0.00000	   0.01259	
+H	 28	   0.169	H	  -0.10309	   0.00000	  -0.04271	  -0.19444	  -0.06545	   0.00021	   0.00000	  -0.40548	
+N	 16	  -0.310	NX	  -0.01169	   0.00000	  -0.07267	   0.00000	   0.01633	  -0.00020	   0.00000	  -0.06823	
+C	 17	   0.235	C	  -0.17582	   0.00000	  -0.23544	   0.00000	   0.01078	   0.00112	   0.00000	  -0.39937	
+O	 18	  -0.272	O	  -0.06559	   0.00000	  -0.06058	   0.02244	  -0.00366	   0.00276	   0.00000	  -0.10464	
+H	 30	   0.170	H	  -0.11287	   0.00000	  -0.04662	   0.02366	  -0.00307	   0.00131	   0.00000	  -0.13759	
+C	 19	   0.079	C	  -0.19840	   0.00000	  -0.29303	   0.12397	   0.00812	   0.00032	   0.00000	  -0.35903	
+C	 20	   0.010	C	  -0.19929	   0.00000	  -0.41624	   0.13345	   0.00120	   0.00018	   0.00000	  -0.48070	
+C	 21	   0.010	C	  -0.18041	   0.00000	  -0.39297	   0.04137	   0.00046	   0.00866	   0.00000	  -0.52290	
+Total Energy components : 
+ E(LJ)    	  -2.95564
+ E(metal)	   0.00000
+ E(sol)   	  -5.61716
+ E(H-bonds)	   0.99318
+ E(elect)	   0.01663
+ E(internal)	   0.00751
+ E(tors)	   0.47040
+ E(dihedral)	   0.02036
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -7.06471
+
+
+----------------------------
+Detailed energy of pose     9 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04786	   0.00000	  -0.25953	   0.02240	   0.00086	  -0.00012	   0.00000	  -0.28424	
+C	  1	   0.063	A	  -0.06036	   0.00000	  -0.32687	   0.01253	   0.00058	  -0.00167	   0.00000	  -0.37579	
+C	  2	   0.012	A	  -0.06700	   0.00000	  -0.42622	   0.00472	  -0.00025	  -0.00040	   0.00000	  -0.48916	
+C	  7	   0.063	A	  -0.04230	   0.00000	  -0.25737	   0.05676	  -0.00095	   0.00017	   0.00000	  -0.24368	
+C	  8	   0.002	A	  -0.06631	   0.00000	  -0.40659	   0.01771	  -0.00001	  -0.00007	   0.00000	  -0.45528	
+C	  9	   0.012	A	  -0.04384	   0.00000	  -0.31279	   0.00397	   0.00002	   0.00021	   0.00000	  -0.35243	
+Cl	 10	  -0.082	Cl	  -0.56699	   0.00000	  -0.35380	  -0.03581	  -0.00053	  -0.00852	   0.00000	  -0.96565	
+Cl	 22	  -0.082	Cl	  -0.35985	   0.00000	  -0.26883	  -0.04503	   0.01266	  -0.00030	   0.00000	  -0.66134	
+C	  3	   0.063	A	  -0.04455	   0.00000	  -0.24025	   0.00004	  -0.00193	  -0.00187	   0.00000	  -0.28857	
+C	  5	   0.038	A	  -0.03989	   0.00000	  -0.30255	   0.00761	  -0.00292	   0.00363	   0.00000	  -0.33411	
+C	  6	   0.102	A	  -0.04875	   0.00000	  -0.36509	   0.00000	  -0.00137	   0.00101	   0.00000	  -0.41420	
+N	 13	  -0.227	N	  -0.13212	   0.00000	  -0.06794	   0.01681	   0.00821	   0.00362	   0.00000	  -0.17141	
+C	 14	   0.144	A	  -0.04420	   0.00000	  -0.28797	   0.00000	   0.00185	  -0.00039	   0.00000	  -0.33072	
+C	 15	   0.054	A	  -0.04367	   0.00000	  -0.28356	   0.00000	   0.00048	  -0.00256	   0.00000	  -0.32930	
+C	  4	   0.259	C	  -0.17370	   0.00000	  -0.17988	   0.00000	  -0.00072	  -0.00003	   0.00000	  -0.35433	
+O	 11	  -0.267	O	  -0.09187	   0.00000	  -0.08229	  -0.10297	   0.00036	  -0.00138	   0.00000	  -0.27815	
+N	 12	  -0.321	NX	  -0.00963	   0.00000	  -0.05087	   0.00000	   0.01820	  -0.00482	   0.00000	  -0.04711	
+H	 28	   0.169	H	  -0.09646	   0.00000	  -0.04021	   0.02391	   0.00512	   0.00022	   0.00000	  -0.10743	
+N	 16	  -0.310	NX	  -0.00876	   0.00000	  -0.05061	   0.00000	  -0.00292	   0.00338	   0.00000	  -0.05891	
+C	 17	   0.235	C	  -0.17797	   0.00000	  -0.24373	   0.00000	   0.01351	   0.00076	   0.00000	  -0.40743	
+O	 18	  -0.272	O	  -0.07755	   0.00000	  -0.09281	   0.02191	   0.00130	   0.00244	   0.00000	  -0.14470	
+H	 30	   0.170	H	  -0.07296	   0.00000	  -0.03070	   0.02404	   0.01941	   0.00689	   0.00000	  -0.05333	
+C	 19	   0.079	C	  -0.23828	   0.00000	  -0.31645	   0.10525	   0.01220	  -0.00005	   0.00000	  -0.43733	
+C	 20	   0.010	C	  -0.14774	   0.00000	  -0.40781	   0.00979	   0.00171	   0.00318	   0.00000	  -0.54088	
+C	 21	   0.010	C	  -0.22564	   0.00000	  -0.41540	   0.17440	   0.00133	   0.00365	   0.00000	  -0.46165	
+Total Energy components : 
+ E(LJ)    	  -2.92824
+ E(metal)	   0.00000
+ E(sol)   	  -6.07011
+ E(H-bonds)	   0.31803
+ E(elect)	   0.08621
+ E(internal)	   0.00698
+ E(tors)	   0.47040
+ E(dihedral)	   0.02083
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -8.09590
+
+
+----------------------------
+Detailed energy of optimized reference ligand : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04108	   0.00000	  -0.25371	   0.00155	   0.00105	  -0.00008	   0.00000	  -0.29227	
+C	  1	   0.063	A	  -0.05152	   0.00000	  -0.29506	   0.05381	  -0.00109	   0.00135	   0.00000	  -0.29250	
+C	  2	   0.012	A	  -0.05789	   0.00000	  -0.38278	   0.09073	  -0.00134	   0.00050	   0.00000	  -0.35078	
+C	  7	   0.063	A	  -0.05505	   0.00000	  -0.27867	   0.00011	  -0.00016	  -0.00258	   0.00000	  -0.33635	
+C	  8	   0.002	A	  -0.05898	   0.00000	  -0.39577	   0.03480	  -0.00020	  -0.00004	   0.00000	  -0.42020	
+C	  9	   0.012	A	  -0.04623	   0.00000	  -0.35918	   0.00051	  -0.00085	  -0.00037	   0.00000	  -0.40612	
+Cl	 10	  -0.082	Cl	  -0.59536	   0.00000	  -0.35666	  -0.01167	  -0.00228	  -0.00130	   0.00000	  -0.96727	
+Cl	 22	  -0.082	Cl	  -0.70858	   0.00000	  -0.35513	  -0.00049	  -0.00188	  -0.00616	   0.00000	  -1.07225	
+C	  3	   0.063	A	  -0.04515	   0.00000	  -0.29200	   0.00477	   0.00152	  -0.00228	   0.00000	  -0.33314	
+C	  5	   0.038	A	  -0.05436	   0.00000	  -0.37828	   0.01977	   0.00089	   0.07180	   0.00000	  -0.34017	
+C	  6	   0.102	A	  -0.07477	   0.00000	  -0.48965	   0.00000	   0.00329	  -0.00037	   0.00000	  -0.56150	
+N	 13	  -0.227	N	  -0.23765	   0.00000	  -0.07472	  -0.28976	  -0.02060	   0.00743	   0.00000	  -0.61530	
+C	 14	   0.144	A	  -0.07365	   0.00000	  -0.37438	   0.00000	   0.00391	   0.00580	   0.00000	  -0.43832	
+C	 15	   0.054	A	  -0.05223	   0.00000	  -0.34987	   0.04971	   0.00064	   0.04633	   0.00000	  -0.30541	
+C	  4	   0.259	C	  -0.14244	   0.00000	  -0.20033	   0.00000	   0.01235	   0.00801	   0.00000	  -0.32242	
+O	 11	  -0.267	O	  -0.06989	   0.00000	  -0.07279	   0.02231	  -0.00743	   0.06431	   0.00000	  -0.06348	
+N	 12	  -0.321	NX	  -0.00788	   0.00000	  -0.04138	   0.00000	   0.00379	  -0.01136	   0.00000	  -0.05683	
+H	 28	   0.169	H	  -0.04797	   0.00000	  -0.01128	   0.02400	   0.00630	   0.00046	   0.00000	  -0.02848	
+N	 16	  -0.310	NX	  -0.01476	   0.00000	  -0.08073	   0.00000	   0.03150	   0.00068	   0.00000	  -0.06331	
+C	 17	   0.235	C	  -0.23054	   0.00000	  -0.26963	   0.00000	   0.00293	   0.00776	   0.00000	  -0.48948	
+O	 18	  -0.272	O	  -0.07098	   0.00000	  -0.04980	   0.02240	   0.00423	   0.03964	   0.00000	  -0.05451	
+H	 30	   0.170	H	  -0.17033	   0.00000	  -0.03983	  -0.19053	  -0.05356	   0.00126	   0.00000	  -0.45299	
+C	 19	   0.079	C	  -0.25403	   0.00000	  -0.30090	   0.01440	  -0.00164	   0.00022	   0.00000	  -0.54195	
+C	 20	   0.010	C	  -0.19639	   0.00000	  -0.32843	   0.07685	   0.00057	   0.00203	   0.00000	  -0.44537	
+C	 21	   0.010	C	  -0.17733	   0.00000	  -0.30656	   0.00442	  -0.00021	   0.00624	   0.00000	  -0.47345	
+Total Energy components : 
+ E(LJ)    	  -3.53505
+ E(metal)	   0.00000
+ E(sol)   	  -6.33751
+ E(H-bonds)	  -0.07232
+ E(elect)	  -0.01828
+ E(internal)	   0.23929
+ E(tors)	   0.47040
+ E(dihedral)	   0.03411
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -9.21936
+
+
+MCS Conformation Hunt "A 0X5 1201"
+07/10/2022 11:18
+
+New MCS alignment process started at Fri Oct 7 11:17:45 2022
+
+Alignment parameters are:
+Process config '[Custom]'
+Alignment clustering RMSD threshold:                    	0
+Alignment filtering RMSD threshold:                     	1
+Alignment weighting for hydrophobic field similarity:   	1
+Alignment weighting for negative field similarity:      	1
+Alignment weighting for positive field similarity:      	1
+Alignment weighting for surface field similarity:       	1
+Fraction of alignment score from ref->db vs db->ref:    	0.5
+Fraction of score from shape similarity:                	0.5
+Hardness of the protein surface:                        	Soft
+Is inversion of achiral moving molecules allowed?:      	true
+Just score input structures without aligning:           	false
+Maximum number of alignments to generate:               	100000
+Perform the alignment task:                             	true
+Return maximum similarity to any reference:             	false
+Scores the existing alignments only, no realignment:    	false
+Scoring metric:                                         	Dice
+Scoring metric alpha:                                   	0.5
+Scoring metric beta:                                    	0.5
+Should a two-pass simplex be performed?:                	false
+Should shortcuts be taken in the simplex first pass?:   	false
+Take major shortcuts in pairwise alignments:            	false
+Take shortcuts in matching field cliques for alignments:	false
+
+Using Normal MCS mode (bondRingChainLabel+atomElementLabel+atomHybridisationLabel)
+Applying maximum-common-substructure alignment to molecule 'A 0X5 1201' - no. MCSes is 61
+
+Best maximum-common-substructure alignment to molecule A 0X5 1201
+23 matched atoms are :
+This molecule: atoms: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,21,23 bonds: 2,8,11,19,20,22
+Reference:     atoms: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+
+Initial RMS fit: 0.27A
+Initial score: 2.749
+Matched bond 1-5 from reference molecule to bond 1-5
+Matched bond 2-11 from reference molecule to bond 2-11
+Matched bond 4-13 from reference molecule to bond 4-13
+Matched bond 5-12 from reference molecule to bond 5-12
+Matched bond 5-13 from reference molecule to bond 5-13
+Matched bond 8-23 from reference molecule to bond 8-23
+Matched bond 15-17 from reference molecule to bond 15-17
+Matched bond 17-18 from reference molecule to bond 17-18
+Matched bond 18-19 from reference molecule to bond 18-19
+Matched bond 18-20 from reference molecule to bond 18-20
+
+Created docking grid for "AF_relavent_res_P"
+07/10/2022 11:18
+
+Docking active site grid created from (-18.148,-21.739,-29.818) to (3.456,4.366,-6.511)
+Protein chains included: 
+  A Chain
+
+Lead Finder version 2112 build 1, 24 December 2021
+http://www.biomoltech.com/
+
+For a list of command-line switches, type leadfinder64 -h.
+
+Initializing random seed .. 
+Random seed : 1665137864  1020950
+Volume of the box : 13144.4 A3
+Making receptor model .. 
+
+Building protein model ...
+
+Deleting alternative pdb models ...
+All is correct : No atoms with alternative models
+
+Building and checking bonds ...
+
+Looking for unknown elements ...
+All is correct : All atoms have correct elements
+
+Checking aminoacids order ...
+All is correct : All residues have correct order of atoms
+
+Building chemical properties ...
+Library "/usr/local/cresset/Flare/third-party/lead-finder/residue.lib"
+
+Receptor model settings : 
+  - atom charges will be recalculated
+Library "/usr/local/cresset/Flare/third-party/lead-finder/dock_ff.lib"
+Total charge on the macromolecule : -2
+Grid reorientation will not be performed (no reference ligand has been provided)
+Calculating grid maps .. 
+Grid size 59 x 71 x 63 points
+
+Processing VdW map for SX  
+Processing VdW map for CF  
+Processing VdW map for B  
+Processing VdW map for NX  
+Processing VdW map for I  
+Processing VdW map for Br  
+Processing VdW map for Cl  
+Processing VdW map for F  
+Processing VdW map for H  
+Processing VdW map for S  
+Processing VdW map for P  
+Processing VdW map for O  
+Processing VdW map for N  
+Processing VdW map for A  
+Processing VdW map for C  
+Calculations have taken 53.2279 seconds 
+Saving grid maps .. 
+
+
+Docked "A 0X5 1201_D (1)"
+07/10/2022 11:19
+To protein "AF_relavent_res_P"
+
+Docked "A 0X5 1201_D (1)"
+Process config 'Accurate but Slow'
+Docking mode:                                                                               	Normal
+Extra command line parameters to run LeadFinder with:                                       	[]
+Increase the number of individuals in a population by a factor of :                         	1
+Increase the number of individuals in the initial pool by a factor of :                     	1
+Minimize ligands before docking:                                                            	true
+Multi-protein mode:                                                                         	Keep best overall scores
+Rotate amide bonds during docking:                                                          	false
+Rotate ester bonds (O=)C-O(-C) during docking:                                              	false
+SMARTS patterns of torsions that are not allowed to move:                                   	[]
+The max number of poses to output for each ligand:                                          	10
+The maximum docking constraint penalty that will be tolerated:                              	1
+The number of independent docking runs to perform:                                          	3
+The role to copy the ligands to. If not set, the ligands are inserted after the input ligand:	
+Use a copy of the ligands to perform the docking calculation with:                          	true
+
+Ligand "A 0X5 1201" was used as the template when docking.
+
+
+New MCS alignment process started at Fri Oct 7 11:17:45 2022
+
+Alignment parameters are:
+Process config '[Custom]'
+Alignment clustering RMSD threshold:                    	0
+Alignment filtering RMSD threshold:                     	1
+Alignment weighting for hydrophobic field similarity:   	1
+Alignment weighting for negative field similarity:      	1
+Alignment weighting for positive field similarity:      	1
+Alignment weighting for surface field similarity:       	1
+Fraction of alignment score from ref->db vs db->ref:    	0.5
+Fraction of score from shape similarity:                	0.5
+Hardness of the protein surface:                        	Soft
+Is inversion of achiral moving molecules allowed?:      	true
+Just score input structures without aligning:           	false
+Maximum number of alignments to generate:               	100000
+Perform the alignment task:                             	true
+Return maximum similarity to any reference:             	false
+Scores the existing alignments only, no realignment:    	false
+Scoring metric:                                         	Dice
+Scoring metric alpha:                                   	0.5
+Scoring metric beta:                                    	0.5
+Should a two-pass simplex be performed?:                	false
+Should shortcuts be taken in the simplex first pass?:   	false
+Take major shortcuts in pairwise alignments:            	false
+Take shortcuts in matching field cliques for alignments:	false
+
+Using Normal MCS mode (bondRingChainLabel+atomElementLabel+atomHybridisationLabel)
+Applying maximum-common-substructure alignment to molecule 'A 0X5 1201' - no. MCSes is 61
+
+Best maximum-common-substructure alignment to molecule A 0X5 1201
+23 matched atoms are :
+This molecule: atoms: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,21,23 bonds: 2,8,11,19,20,22
+Reference:     atoms: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+
+Initial RMS fit: 0.27A
+Initial score: 2.749
+Matched bond 1-5 from reference molecule to bond 1-5
+Matched bond 2-11 from reference molecule to bond 2-11
+Matched bond 4-13 from reference molecule to bond 4-13
+Matched bond 5-12 from reference molecule to bond 5-12
+Matched bond 5-13 from reference molecule to bond 5-13
+Matched bond 8-23 from reference molecule to bond 8-23
+Matched bond 15-17 from reference molecule to bond 15-17
+Matched bond 17-18 from reference molecule to bond 17-18
+Matched bond 18-19 from reference molecule to bond 18-19
+Matched bond 18-20 from reference molecule to bond 18-20
+
+===All conformations cleared===
+
+
+Performing rotation scan for possible flat bond between atoms 1 and 5
+Energy for flat bond is 155.3 kcal/mol
+Possible flat bond between atoms 1 and 5 has been designated as not flat, as low-energy rotamer with energy 154.5 found at 30 degrees
+
+Lead Finder version 2112 build 1, 24 December 2021
+
+
+Random seed: 19 137
+Task: fast template docking
+
+
+
+Docking results for Ligand_1.sdf
+Time of docking:      10.18 s
+
+Ligand properties:
+  Molar weight              : 350.199
+  N(heavy atoms)            : 23
+  N(freely rotatable bonds) : 4
+
+
+Optimized reference dG, kcal/mol :   -9.57913
+Optimized reference VS score     :  -10.44880
+Optimized reference rank score   :   -6.07418
+
+Optimized reference init. RMS, A :    0.00000
+Optimized reference final RMS, A :    1.30382
+
+Top pose dG, kcal/mol         :   -9.37732
+Top pose VS score             :  -10.22708
+Top pose RMS, A               :    1.45479
+Top pose LE, (kcal/mol)/atom  :   -0.40771
+
+Pose with best free energy of binding has dG, kcal/mol    :   -9.56421 
+Pose with best free energy of binding has VS score        :  -10.50146 
+Pose with best free energy of binding has RMS, A          :    1.35511 
+
+Nearest pose dG, kcal/mol :   -9.25889 
+Nearest pose VS score     :  -10.09391 
+Nearest pose RMS, A       :    0.94575 
+Nearest pose rank         :   2
+
+Pose           dG, kcal/mol        VS score   LE, (kcal/mol)/atom   Rank score     RMS, A
+    0              -9.37732       -10.22708        -0.40771        -6.15580         1.45479
+    1              -9.56421       -10.50146        -0.41584        -5.85518         1.35511
+    2              -9.25889       -10.09391        -0.40256        -5.83412         0.94575
+    3              -8.68606        -9.49645        -0.37765        -5.70023         2.33025
+    4              -9.06156        -9.84692        -0.39398        -5.52193         1.54790
+    5              -8.57485        -9.40052        -0.37282        -5.40276         3.19878
+    6              -8.36304        -9.13305        -0.36361        -5.23009         5.29262
+    7              -8.60562        -9.24439        -0.37416        -5.21546         2.42346
+    8              -8.68637        -9.41968        -0.37767        -5.21506         2.02219
+    9              -8.75130        -9.63224        -0.38049        -5.13461         2.59807
+
+
+----------------------------
+Detailed energy of pose     0 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.05366	   0.00000	  -0.29204	   0.00053	  -0.00269	  -0.00032	   0.00000	  -0.34819	
+C	  1	   0.063	A	  -0.05446	   0.00000	  -0.33039	   0.00101	  -0.00285	  -0.00086	   0.00000	  -0.38755	
+C	  2	   0.012	A	  -0.07072	   0.00000	  -0.42724	   0.00585	  -0.00148	  -0.00022	   0.00000	  -0.49381	
+C	  7	   0.063	A	  -0.05752	   0.00000	  -0.29983	   0.00201	  -0.00392	  -0.00029	   0.00000	  -0.35955	
+C	  8	   0.002	A	  -0.06872	   0.00000	  -0.43950	   0.07978	  -0.00033	  -0.00006	   0.00000	  -0.42883	
+C	  9	   0.012	A	  -0.06270	   0.00000	  -0.39054	   0.00962	  -0.00178	   0.00004	   0.00000	  -0.44537	
+Cl	 10	  -0.082	Cl	  -0.42602	   0.00000	  -0.35353	  -0.00015	   0.00035	  -0.00457	   0.00000	  -0.78393	
+Cl	 22	  -0.082	Cl	  -0.46640	   0.00000	  -0.32382	  -0.01673	   0.00554	  -0.00149	   0.00000	  -0.80290	
+C	  3	   0.063	A	  -0.05358	   0.00000	  -0.31238	   0.00888	   0.00106	  -0.00270	   0.00000	  -0.35872	
+C	  5	   0.038	A	  -0.06231	   0.00000	  -0.40843	   0.02955	   0.00096	  -0.00144	   0.00000	  -0.44169	
+C	  6	   0.102	A	  -0.07814	   0.00000	  -0.50689	   0.00000	   0.00636	   0.00270	   0.00000	  -0.57598	
+N	 13	  -0.227	N	  -0.23222	   0.00000	  -0.06637	  -0.07528	  -0.01279	   0.00656	   0.00000	  -0.38009	
+C	 14	   0.144	A	  -0.07840	   0.00000	  -0.37957	   0.00000	   0.00275	   0.00286	   0.00000	  -0.45236	
+C	 15	   0.054	A	  -0.06422	   0.00000	  -0.34933	   0.05641	   0.00117	   0.02063	   0.00000	  -0.33534	
+C	  4	   0.259	C	  -0.19748	   0.00000	  -0.20794	   0.00000	   0.00114	  -0.00123	   0.00000	  -0.40550	
+O	 11	  -0.267	O	  -0.12514	   0.00000	  -0.08038	   0.02240	   0.00179	  -0.00290	   0.00000	  -0.18423	
+N	 12	  -0.321	NX	  -0.00915	   0.00000	  -0.04983	   0.00000	   0.01319	  -0.00372	   0.00000	  -0.04950	
+H	 28	   0.169	H	  -0.07831	   0.00000	  -0.04270	   0.02400	   0.00452	   0.00013	   0.00000	  -0.09237	
+N	 16	  -0.310	NX	  -0.01625	   0.00000	  -0.07324	   0.00000	   0.02442	  -0.00037	   0.00000	  -0.06544	
+C	 17	   0.235	C	  -0.20743	   0.00000	  -0.27631	   0.00000	   0.01446	   0.00367	   0.00000	  -0.46560	
+O	 18	  -0.272	O	  -0.07418	   0.00000	  -0.06366	   0.02230	   0.00607	   0.01753	   0.00000	  -0.09195	
+H	 30	   0.170	H	  -0.17749	   0.00000	  -0.03784	  -0.18976	  -0.04716	   0.00128	   0.00000	  -0.45097	
+C	 19	   0.079	C	  -0.22757	   0.00000	  -0.30001	   0.03072	   0.00276	  -0.00027	   0.00000	  -0.49437	
+C	 20	   0.010	C	  -0.18959	   0.00000	  -0.32011	   0.02047	   0.00134	   0.00183	   0.00000	  -0.48607	
+C	 21	   0.010	C	  -0.16515	   0.00000	  -0.31192	   0.00387	  -0.00001	   0.00578	   0.00000	  -0.46742	
+Total Energy components : 
+ E(LJ)    	  -3.29681
+ E(metal)	   0.00000
+ E(sol)   	  -6.64380
+ E(H-bonds)	   0.03546
+ E(elect)	   0.01487
+ E(internal)	   0.04256
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -9.37732
+
+
+----------------------------
+Detailed energy of pose     1 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.05143	   0.00000	  -0.30639	   0.01013	  -0.00444	  -0.00014	   0.00000	  -0.35227	
+C	  1	   0.063	A	  -0.05404	   0.00000	  -0.32000	   0.06705	  -0.00545	  -0.00090	   0.00000	  -0.31334	
+C	  2	   0.012	A	  -0.06426	   0.00000	  -0.41003	   0.06845	  -0.00192	  -0.00085	   0.00000	  -0.40862	
+C	  7	   0.063	A	  -0.06471	   0.00000	  -0.34440	   0.00080	  -0.00446	   0.00178	   0.00000	  -0.41099	
+C	  8	   0.002	A	  -0.06670	   0.00000	  -0.43876	   0.09796	  -0.00036	  -0.00010	   0.00000	  -0.40796	
+C	  9	   0.012	A	  -0.05080	   0.00000	  -0.44189	   0.01306	  -0.00261	   0.00034	   0.00000	  -0.48190	
+Cl	 10	  -0.082	Cl	  -0.47591	   0.00000	  -0.33522	  -0.00251	   0.00820	   0.00776	   0.00000	  -0.79768	
+Cl	 22	  -0.082	Cl	  -0.66708	   0.00000	  -0.40178	  -0.00113	  -0.00403	   0.00856	   0.00000	  -1.06546	
+C	  3	   0.063	A	  -0.05376	   0.00000	  -0.31602	   0.00327	   0.00069	  -0.00468	   0.00000	  -0.37052	
+C	  5	   0.038	A	  -0.06063	   0.00000	  -0.40944	   0.01246	   0.00065	   0.03090	   0.00000	  -0.42606	
+C	  6	   0.102	A	  -0.07994	   0.00000	  -0.50573	   0.00000	   0.00338	   0.00078	   0.00000	  -0.58151	
+N	 13	  -0.227	N	  -0.24657	   0.00000	  -0.07284	  -0.20786	  -0.01947	   0.00750	   0.00000	  -0.53925	
+C	 14	   0.144	A	  -0.07863	   0.00000	  -0.39269	   0.00000	   0.00473	   0.00411	   0.00000	  -0.46248	
+C	 15	   0.054	A	  -0.06151	   0.00000	  -0.34928	   0.04420	   0.00121	   0.06385	   0.00000	  -0.30153	
+C	  4	   0.259	C	  -0.16214	   0.00000	  -0.23251	   0.00000	   0.00028	   0.00446	   0.00000	  -0.38991	
+O	 11	  -0.267	O	  -0.07709	   0.00000	  -0.07401	   0.02204	   0.00944	   0.03358	   0.00000	  -0.08604	
+N	 12	  -0.321	NX	  -0.01019	   0.00000	  -0.04577	   0.00000	   0.01169	   0.01544	   0.00000	  -0.02883	
+H	 28	   0.169	H	  -0.07001	   0.00000	  -0.02712	   0.02399	   0.00648	  -0.00029	   0.00000	  -0.06694	
+N	 16	  -0.310	NX	  -0.01655	   0.00000	  -0.08039	   0.00000	   0.02460	   0.00001	   0.00000	  -0.07233	
+C	 17	   0.235	C	  -0.21390	   0.00000	  -0.28616	   0.00000	   0.01081	   0.00898	   0.00000	  -0.48028	
+O	 18	  -0.272	O	  -0.09983	   0.00000	  -0.07054	   0.02241	   0.00451	   0.05968	   0.00000	  -0.08376	
+H	 30	   0.170	H	  -0.17893	   0.00000	  -0.03692	  -0.17225	  -0.03954	   0.00112	   0.00000	  -0.42652	
+C	 19	   0.079	C	  -0.21348	   0.00000	  -0.31784	   0.02467	   0.00157	  -0.00015	   0.00000	  -0.50524	
+C	 20	   0.010	C	  -0.22018	   0.00000	  -0.36572	   0.08380	   0.00153	  -0.00056	   0.00000	  -0.50113	
+C	 21	   0.010	C	  -0.16737	   0.00000	  -0.32180	   0.00668	   0.00012	   0.00833	   0.00000	  -0.47405	
+Total Energy components : 
+ E(LJ)    	  -3.50567
+ E(metal)	   0.00000
+ E(sol)   	  -6.90329
+ E(H-bonds)	   0.11722
+ E(elect)	   0.00762
+ E(internal)	   0.24951
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -9.56421
+
+
+----------------------------
+Detailed energy of pose     2 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04804	   0.00000	  -0.29386	   0.00316	  -0.00226	  -0.00004	   0.00000	  -0.34104	
+C	  1	   0.063	A	  -0.05668	   0.00000	  -0.31100	   0.00015	  -0.00182	   0.00175	   0.00000	  -0.36760	
+C	  2	   0.012	A	  -0.06290	   0.00000	  -0.40124	   0.00069	  -0.00111	  -0.00071	   0.00000	  -0.46527	
+C	  7	   0.063	A	  -0.06361	   0.00000	  -0.32833	   0.08559	  -0.00394	   0.00267	   0.00000	  -0.30762	
+C	  8	   0.002	A	  -0.07173	   0.00000	  -0.42685	   0.03838	  -0.00029	  -0.00006	   0.00000	  -0.46055	
+C	  9	   0.012	A	  -0.06664	   0.00000	  -0.42828	   0.09981	  -0.00264	   0.00020	   0.00000	  -0.39755	
+Cl	 10	  -0.082	Cl	  -0.56342	   0.00000	  -0.35337	  -0.00072	  -0.00111	   0.03843	   0.00000	  -0.88020	
+Cl	 22	  -0.082	Cl	  -0.71194	   0.00000	  -0.38752	  -0.00947	   0.00126	   0.02113	   0.00000	  -1.08653	
+C	  3	   0.063	A	  -0.05792	   0.00000	  -0.32695	   0.02112	   0.00152	  -0.00420	   0.00000	  -0.36645	
+C	  5	   0.038	A	  -0.06677	   0.00000	  -0.41377	   0.09425	   0.00118	   0.07214	   0.00000	  -0.31297	
+C	  6	   0.102	A	  -0.07726	   0.00000	  -0.51438	   0.00000	   0.00960	  -0.00045	   0.00000	  -0.58249	
+N	 13	  -0.227	N	  -0.23225	   0.00000	  -0.06999	  -0.09862	  -0.01539	   0.00716	   0.00000	  -0.40908	
+C	 14	   0.144	A	  -0.07888	   0.00000	  -0.39630	   0.00000	   0.00121	   0.00532	   0.00000	  -0.46866	
+C	 15	   0.054	A	  -0.06677	   0.00000	  -0.38312	   0.07765	   0.00134	   0.04025	   0.00000	  -0.33064	
+C	  4	   0.259	C	  -0.16397	   0.00000	  -0.24003	   0.00000	   0.00269	   0.00813	   0.00000	  -0.39317	
+O	 11	  -0.267	O	  -0.08047	   0.00000	  -0.06034	   0.02232	   0.00782	   0.08625	   0.00000	  -0.02441	
+N	 12	  -0.321	NX	  -0.01040	   0.00000	  -0.03706	   0.00000	   0.01100	   0.03999	   0.00000	   0.00354	
+H	 28	   0.169	H	  -0.06704	   0.00000	  -0.00997	   0.02377	   0.00410	   0.00366	   0.00000	  -0.04548	
+N	 16	  -0.310	NX	  -0.01592	   0.00000	  -0.07770	   0.00000	   0.02842	   0.00056	   0.00000	  -0.06465	
+C	 17	   0.235	C	  -0.21316	   0.00000	  -0.27433	   0.00000	   0.01488	   0.00722	   0.00000	  -0.46540	
+O	 18	  -0.272	O	  -0.08901	   0.00000	  -0.06488	   0.02233	   0.00605	   0.03555	   0.00000	  -0.08995	
+H	 30	   0.170	H	  -0.18748	   0.00000	  -0.04000	  -0.15840	  -0.05092	   0.00129	   0.00000	  -0.43550	
+C	 19	   0.079	C	  -0.23923	   0.00000	  -0.29492	   0.03280	   0.00286	   0.00018	   0.00000	  -0.49831	
+C	 20	   0.010	C	  -0.18096	   0.00000	  -0.30717	   0.01262	   0.00123	   0.00178	   0.00000	  -0.47250	
+C	 21	   0.010	C	  -0.16622	   0.00000	  -0.31060	   0.00363	  -0.00006	   0.00645	   0.00000	  -0.46679	
+Total Energy components : 
+ E(LJ)    	  -3.63868
+ E(metal)	   0.00000
+ E(sol)   	  -6.75194
+ E(H-bonds)	   0.27106
+ E(elect)	   0.01564
+ E(internal)	   0.37463
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -9.25889
+
+
+----------------------------
+Detailed energy of pose     3 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.05214	   0.00000	  -0.28316	   0.00045	  -0.00248	   0.00033	   0.00000	  -0.33699	
+C	  1	   0.063	A	  -0.05026	   0.00000	  -0.32283	   0.00164	  -0.00229	   0.00336	   0.00000	  -0.37039	
+C	  2	   0.012	A	  -0.06598	   0.00000	  -0.42570	   0.00664	  -0.00118	   0.00077	   0.00000	  -0.48545	
+C	  7	   0.063	A	  -0.05514	   0.00000	  -0.30248	   0.00232	  -0.00378	  -0.00277	   0.00000	  -0.36185	
+C	  8	   0.002	A	  -0.07095	   0.00000	  -0.43572	   0.04603	  -0.00029	   0.00006	   0.00000	  -0.46087	
+C	  9	   0.012	A	  -0.06172	   0.00000	  -0.39666	   0.01368	  -0.00155	  -0.00053	   0.00000	  -0.44677	
+Cl	 10	  -0.082	Cl	  -0.43105	   0.00000	  -0.35653	  -0.00005	   0.00039	   0.00728	   0.00000	  -0.77997	
+Cl	 22	  -0.082	Cl	  -0.48833	   0.00000	  -0.32194	  -0.02189	   0.00740	  -0.00616	   0.00000	  -0.83091	
+C	  3	   0.063	A	  -0.06123	   0.00000	  -0.31195	   0.00704	   0.00062	   0.00234	   0.00000	  -0.36318	
+C	  5	   0.038	A	  -0.06610	   0.00000	  -0.40514	   0.14768	   0.00103	   0.00706	   0.00000	  -0.31548	
+C	  6	   0.102	A	  -0.07543	   0.00000	  -0.49852	   0.00000	   0.00239	  -0.00550	   0.00000	  -0.57705	
+N	 13	  -0.227	N	  -0.21139	   0.00000	  -0.04531	   0.01661	   0.00937	   0.04538	   0.00000	  -0.18534	
+C	 14	   0.144	A	  -0.05096	   0.00000	  -0.34803	   0.00000	   0.00674	   0.00124	   0.00000	  -0.39102	
+C	 15	   0.054	A	  -0.05986	   0.00000	  -0.37116	   0.01501	   0.00023	   0.00225	   0.00000	  -0.41353	
+C	  4	   0.259	C	  -0.20121	   0.00000	  -0.20201	   0.00000	   0.00031	   0.00270	   0.00000	  -0.40021	
+O	 11	  -0.267	O	  -0.10785	   0.00000	  -0.07957	   0.02243	   0.00213	   0.01222	   0.00000	  -0.15065	
+N	 12	  -0.321	NX	  -0.01052	   0.00000	  -0.04632	   0.00000	   0.01701	  -0.00394	   0.00000	  -0.04376	
+H	 28	   0.169	H	  -0.07296	   0.00000	  -0.03664	   0.02404	   0.00257	   0.00009	   0.00000	  -0.08290	
+N	 16	  -0.310	NX	  -0.01074	   0.00000	  -0.04670	   0.00000	   0.00101	   0.00240	   0.00000	  -0.05402	
+C	 17	   0.235	C	  -0.24032	   0.00000	  -0.24587	   0.00000	   0.02716	   0.00655	   0.00000	  -0.45248	
+O	 18	  -0.272	O	  -0.10223	   0.00000	  -0.09134	  -0.22400	  -0.05365	   0.04273	   0.00000	  -0.42848	
+H	 30	   0.170	H	  -0.07704	   0.00000	  -0.00367	   0.02391	   0.01094	   0.00260	   0.00000	  -0.04325	
+C	 19	   0.079	C	  -0.16497	   0.00000	  -0.20798	   0.00290	   0.00686	   0.00029	   0.00000	  -0.36290	
+C	 20	   0.010	C	  -0.17005	   0.00000	  -0.29072	   0.03017	  -0.00021	  -0.00167	   0.00000	  -0.43249	
+C	 21	   0.010	C	  -0.15173	   0.00000	  -0.26895	   0.00875	   0.00069	   0.00530	   0.00000	  -0.40593	
+Total Energy components : 
+ E(LJ)    	  -3.11015
+ E(metal)	   0.00000
+ E(sol)   	  -6.34490
+ E(H-bonds)	   0.12335
+ E(elect)	   0.03143
+ E(internal)	   0.12438
+ E(tors)	   0.47040
+ E(dihedral)	   0.01943
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -8.68606
+
+
+----------------------------
+Detailed energy of pose     4 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.05068	   0.00000	  -0.29654	   0.01862	  -0.00493	  -0.00002	   0.00000	  -0.33355	
+C	  1	   0.063	A	  -0.06217	   0.00000	  -0.33312	   0.00781	  -0.00568	   0.00678	   0.00000	  -0.38637	
+C	  2	   0.012	A	  -0.06844	   0.00000	  -0.41602	   0.05063	  -0.00207	   0.00089	   0.00000	  -0.43501	
+C	  7	   0.063	A	  -0.05127	   0.00000	  -0.31614	   0.02420	  -0.00592	  -0.00192	   0.00000	  -0.35105	
+C	  8	   0.002	A	  -0.06552	   0.00000	  -0.41904	   0.04593	  -0.00030	  -0.00002	   0.00000	  -0.43895	
+C	  9	   0.012	A	  -0.05324	   0.00000	  -0.40076	   0.02425	  -0.00167	  -0.00150	   0.00000	  -0.43292	
+Cl	 10	  -0.082	Cl	  -0.58161	   0.00000	  -0.38047	  -0.00009	   0.00344	   0.05340	   0.00000	  -0.90532	
+Cl	 22	  -0.082	Cl	  -0.51073	   0.00000	  -0.33945	  -0.00490	   0.00730	   0.02350	   0.00000	  -0.82429	
+C	  3	   0.063	A	  -0.05467	   0.00000	  -0.30946	   0.00309	   0.00039	  -0.00391	   0.00000	  -0.36456	
+C	  5	   0.038	A	  -0.05819	   0.00000	  -0.38539	   0.01260	   0.00056	   0.03611	   0.00000	  -0.39431	
+C	  6	   0.102	A	  -0.07313	   0.00000	  -0.49467	   0.00000	   0.00505	   0.00025	   0.00000	  -0.56249	
+N	 13	  -0.227	N	  -0.23004	   0.00000	  -0.06939	  -0.02481	  -0.00691	   0.00671	   0.00000	  -0.32444	
+C	 14	   0.144	A	  -0.07665	   0.00000	  -0.38221	   0.00000	   0.00293	   0.00400	   0.00000	  -0.45193	
+C	 15	   0.054	A	  -0.06394	   0.00000	  -0.34664	   0.02190	   0.00101	   0.02160	   0.00000	  -0.36606	
+C	  4	   0.259	C	  -0.14778	   0.00000	  -0.23888	   0.00000	  -0.00336	   0.00505	   0.00000	  -0.38498	
+O	 11	  -0.267	O	  -0.06969	   0.00000	  -0.06706	   0.02239	   0.01323	   0.08231	   0.00000	  -0.01881	
+N	 12	  -0.321	NX	  -0.01018	   0.00000	  -0.04836	   0.00000	   0.01522	   0.03237	   0.00000	  -0.01094	
+H	 28	   0.169	H	  -0.06883	   0.00000	  -0.02196	   0.02263	   0.00022	   0.00387	   0.00000	  -0.06407	
+N	 16	  -0.310	NX	  -0.01579	   0.00000	  -0.07585	   0.00000	   0.02227	   0.00002	   0.00000	  -0.06935	
+C	 17	   0.235	C	  -0.21251	   0.00000	  -0.27468	   0.00000	   0.01537	   0.00517	   0.00000	  -0.46666	
+O	 18	  -0.272	O	  -0.06648	   0.00000	  -0.05551	   0.02220	   0.00333	   0.02324	   0.00000	  -0.07322	
+H	 30	   0.170	H	  -0.17544	   0.00000	  -0.04111	  -0.19563	  -0.04410	   0.00113	   0.00000	  -0.45515	
+C	 19	   0.079	C	  -0.24622	   0.00000	  -0.30135	   0.04259	   0.00269	  -0.00001	   0.00000	  -0.50230	
+C	 20	   0.010	C	  -0.18635	   0.00000	  -0.30171	   0.01251	   0.00116	   0.00307	   0.00000	  -0.47133	
+C	 21	   0.010	C	  -0.13544	   0.00000	  -0.32040	   0.00809	  -0.00019	   0.00405	   0.00000	  -0.44389	
+Total Energy components : 
+ E(LJ)    	  -3.33501
+ E(metal)	   0.00000
+ E(sol)   	  -6.63616
+ E(H-bonds)	   0.11403
+ E(elect)	   0.01903
+ E(internal)	   0.30614
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -9.06156
+
+
+----------------------------
+Detailed energy of pose     5 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.05271	   0.00000	  -0.29143	   0.00064	  -0.00263	   0.00003	   0.00000	  -0.34611	
+C	  1	   0.063	A	  -0.04964	   0.00000	  -0.32985	   0.00100	  -0.00190	   0.00267	   0.00000	  -0.37772	
+C	  2	   0.012	A	  -0.06537	   0.00000	  -0.42348	   0.00255	  -0.00095	   0.00062	   0.00000	  -0.48662	
+C	  7	   0.063	A	  -0.05849	   0.00000	  -0.30651	   0.00284	  -0.00451	  -0.00309	   0.00000	  -0.36976	
+C	  8	   0.002	A	  -0.06910	   0.00000	  -0.44584	   0.03813	  -0.00031	  -0.00002	   0.00000	  -0.47714	
+C	  9	   0.012	A	  -0.06716	   0.00000	  -0.40750	   0.02328	  -0.00171	  -0.00060	   0.00000	  -0.45369	
+Cl	 10	  -0.082	Cl	  -0.43904	   0.00000	  -0.35662	  -0.00004	   0.00016	   0.00356	   0.00000	  -0.79199	
+Cl	 22	  -0.082	Cl	  -0.50127	   0.00000	  -0.32647	  -0.00940	   0.00374	  -0.00792	   0.00000	  -0.84132	
+C	  3	   0.063	A	  -0.05920	   0.00000	  -0.29082	   0.00090	  -0.00147	  -0.00226	   0.00000	  -0.35286	
+C	  5	   0.038	A	  -0.06272	   0.00000	  -0.39280	   0.02816	   0.00083	   0.00677	   0.00000	  -0.41976	
+C	  6	   0.102	A	  -0.06984	   0.00000	  -0.48145	   0.00000	   0.00305	   0.00071	   0.00000	  -0.54754	
+N	 13	  -0.227	N	  -0.16752	   0.00000	  -0.06851	   0.01658	  -0.00553	   0.00487	   0.00000	  -0.22011	
+C	 14	   0.144	A	  -0.04350	   0.00000	  -0.29759	   0.00000	   0.00070	   0.00206	   0.00000	  -0.33832	
+C	 15	   0.054	A	  -0.04662	   0.00000	  -0.30965	   0.05596	  -0.00321	   0.03166	   0.00000	  -0.27186	
+C	  4	   0.259	C	  -0.20318	   0.00000	  -0.20431	   0.00000	  -0.00091	   0.00199	   0.00000	  -0.40641	
+O	 11	  -0.267	O	  -0.11684	   0.00000	  -0.08038	   0.02241	   0.00328	   0.00841	   0.00000	  -0.16311	
+N	 12	  -0.321	NX	  -0.01075	   0.00000	  -0.04756	   0.00000	   0.02132	  -0.00832	   0.00000	  -0.04531	
+H	 28	   0.169	H	  -0.07296	   0.00000	  -0.03744	   0.02404	  -0.00202	   0.00005	   0.00000	  -0.08834	
+N	 16	  -0.310	NX	  -0.00983	   0.00000	  -0.05075	   0.00000	   0.01184	   0.00032	   0.00000	  -0.04843	
+C	 17	   0.235	C	  -0.18082	   0.00000	  -0.21221	   0.00000	  -0.00785	   0.00555	   0.00000	  -0.39532	
+O	 18	  -0.272	O	  -0.10570	   0.00000	  -0.08351	  -0.20298	   0.01782	   0.02863	   0.00000	  -0.34573	
+H	 30	   0.170	H	  -0.04492	   0.00000	  -0.01259	   0.02404	   0.00394	  -0.00018	   0.00000	  -0.02970	
+C	 19	   0.079	C	  -0.14269	   0.00000	  -0.20328	   0.00454	  -0.00366	   0.00010	   0.00000	  -0.34499	
+C	 20	   0.010	C	  -0.19280	   0.00000	  -0.34323	   0.01082	  -0.00074	   0.00070	   0.00000	  -0.52524	
+C	 21	   0.010	C	  -0.13907	   0.00000	  -0.27971	   0.00185	  -0.00032	   0.00020	   0.00000	  -0.41705	
+Total Energy components : 
+ E(LJ)    	  -2.97171
+ E(metal)	   0.00000
+ E(sol)   	  -6.28349
+ E(H-bonds)	   0.04531
+ E(elect)	   0.02893
+ E(internal)	   0.07653
+ E(tors)	   0.47040
+ E(dihedral)	   0.05917
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -8.57485
+
+
+----------------------------
+Detailed energy of pose     6 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.05513	   0.00000	  -0.27397	   0.00012	  -0.00299	  -0.00017	   0.00000	  -0.33213	
+C	  1	   0.063	A	  -0.05111	   0.00000	  -0.28420	   0.00595	  -0.00545	  -0.00145	   0.00000	  -0.33627	
+C	  2	   0.012	A	  -0.05225	   0.00000	  -0.36069	   0.00945	  -0.00070	  -0.00071	   0.00000	  -0.40490	
+C	  7	   0.063	A	  -0.05931	   0.00000	  -0.30692	   0.00001	  -0.00004	   0.00122	   0.00000	  -0.36504	
+C	  8	   0.002	A	  -0.06057	   0.00000	  -0.40930	   0.00020	  -0.00005	  -0.00008	   0.00000	  -0.46979	
+C	  9	   0.012	A	  -0.05535	   0.00000	  -0.39862	   0.00003	  -0.00020	   0.00033	   0.00000	  -0.45382	
+Cl	 10	  -0.082	Cl	  -0.61136	   0.00000	  -0.31563	  -0.02232	   0.01278	  -0.00220	   0.00000	  -0.93872	
+Cl	 22	  -0.082	Cl	  -0.53432	   0.00000	  -0.37579	  -0.00032	  -0.00152	   0.00424	   0.00000	  -0.90771	
+C	  3	   0.063	A	  -0.03978	   0.00000	  -0.28032	   0.25317	   0.00135	  -0.00341	   0.00000	  -0.06899	
+C	  5	   0.038	A	  -0.06211	   0.00000	  -0.39658	   0.04588	   0.00185	   0.00689	   0.00000	  -0.40407	
+C	  6	   0.102	A	  -0.07595	   0.00000	  -0.42573	   0.00000	   0.00782	   0.00082	   0.00000	  -0.49304	
+N	 13	  -0.227	N	  -0.15612	   0.00000	  -0.03984	   0.01678	   0.00118	   0.00395	   0.00000	  -0.17404	
+C	 14	   0.144	A	  -0.04319	   0.00000	  -0.24434	   0.00000	  -0.00070	   0.00050	   0.00000	  -0.28773	
+C	 15	   0.054	A	  -0.03075	   0.00000	  -0.26913	   0.13809	   0.00037	   0.01834	   0.00000	  -0.14309	
+C	  4	   0.259	C	  -0.21709	   0.00000	  -0.22322	   0.00000	   0.00204	   0.00078	   0.00000	  -0.43749	
+O	 11	  -0.267	O	  -0.09449	   0.00000	  -0.08236	   0.02236	  -0.00572	   0.00629	   0.00000	  -0.15392	
+N	 12	  -0.321	NX	  -0.01199	   0.00000	  -0.04833	   0.00000	   0.03062	   0.00565	   0.00000	  -0.02405	
+H	 28	   0.169	H	  -0.10240	   0.00000	  -0.03326	  -0.17740	  -0.02568	  -0.00029	   0.00000	  -0.33903	
+N	 16	  -0.310	NX	  -0.00834	   0.00000	  -0.02291	   0.00000	   0.01775	   0.00053	   0.00000	  -0.01297	
+C	 17	   0.235	C	  -0.20233	   0.00000	  -0.21892	   0.00000	  -0.01652	   0.00333	   0.00000	  -0.43443	
+O	 18	  -0.272	O	  -0.13736	   0.00000	  -0.07774	   0.02104	   0.04968	   0.01807	   0.00000	  -0.12631	
+H	 30	   0.170	H	  -0.02618	   0.00000	   0.03735	   0.02404	   0.00585	   0.00007	   0.00000	   0.04113	
+C	 19	   0.079	C	  -0.21710	   0.00000	  -0.26174	   0.00039	  -0.00189	  -0.00018	   0.00000	  -0.48052	
+C	 20	   0.010	C	  -0.26596	   0.00000	  -0.38105	   0.00315	  -0.00053	  -0.00037	   0.00000	  -0.64477	
+C	 21	   0.010	C	  -0.17889	   0.00000	  -0.26494	   0.00181	  -0.00009	   0.00036	   0.00000	  -0.44175	
+Total Energy components : 
+ E(LJ)    	  -3.34942
+ E(metal)	   0.00000
+ E(sol)   	  -5.95819
+ E(H-bonds)	   0.34242
+ E(elect)	   0.06923
+ E(internal)	   0.06252
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -8.36304
+
+
+----------------------------
+Detailed energy of pose     7 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.05514	   0.00000	  -0.27823	   0.00200	  -0.00448	   0.00036	   0.00000	  -0.33549	
+C	  1	   0.063	A	  -0.06109	   0.00000	  -0.31315	   0.00420	  -0.00533	   0.00454	   0.00000	  -0.37083	
+C	  2	   0.012	A	  -0.06949	   0.00000	  -0.41312	   0.06031	  -0.00207	   0.00078	   0.00000	  -0.42359	
+C	  7	   0.063	A	  -0.05581	   0.00000	  -0.29704	   0.02385	  -0.00509	  -0.00257	   0.00000	  -0.33666	
+C	  8	   0.002	A	  -0.06821	   0.00000	  -0.42426	   0.06159	  -0.00029	   0.00005	   0.00000	  -0.43111	
+C	  9	   0.012	A	  -0.05840	   0.00000	  -0.38497	   0.01929	  -0.00145	  -0.00078	   0.00000	  -0.42632	
+Cl	 10	  -0.082	Cl	  -0.45330	   0.00000	  -0.36732	  -0.00002	   0.00416	   0.01915	   0.00000	  -0.79733	
+Cl	 22	  -0.082	Cl	  -0.52109	   0.00000	  -0.32031	  -0.03908	   0.01181	  -0.00222	   0.00000	  -0.87089	
+C	  3	   0.063	A	  -0.05712	   0.00000	  -0.29578	   0.00063	  -0.00086	   0.00161	   0.00000	  -0.35152	
+C	  5	   0.038	A	  -0.05717	   0.00000	  -0.38617	   0.01958	   0.00032	   0.00299	   0.00000	  -0.42044	
+C	  6	   0.102	A	  -0.06939	   0.00000	  -0.47958	   0.00000	   0.00355	  -0.00446	   0.00000	  -0.54988	
+N	 13	  -0.227	N	  -0.19804	   0.00000	  -0.05197	   0.01640	   0.00098	   0.03906	   0.00000	  -0.19357	
+C	 14	   0.144	A	  -0.05966	   0.00000	  -0.35125	   0.00000	   0.00554	   0.00028	   0.00000	  -0.40509	
+C	 15	   0.054	A	  -0.05876	   0.00000	  -0.34788	   0.01511	  -0.00179	  -0.00055	   0.00000	  -0.39387	
+C	  4	   0.259	C	  -0.19582	   0.00000	  -0.20450	   0.00000	  -0.00543	   0.00162	   0.00000	  -0.40413	
+O	 11	  -0.267	O	  -0.12214	   0.00000	  -0.07698	   0.02237	   0.00677	   0.01900	   0.00000	  -0.15097	
+N	 12	  -0.321	NX	  -0.01061	   0.00000	  -0.04576	   0.00000	   0.02317	   0.00293	   0.00000	  -0.03027	
+H	 28	   0.169	H	  -0.07841	   0.00000	  -0.03508	   0.02404	  -0.00314	  -0.00003	   0.00000	  -0.09263	
+N	 16	  -0.310	NX	  -0.01267	   0.00000	  -0.05411	   0.00000	  -0.00349	   0.00372	   0.00000	  -0.06654	
+C	 17	   0.235	C	  -0.26938	   0.00000	  -0.27427	   0.00000	   0.01399	   0.00655	   0.00000	  -0.52311	
+O	 18	  -0.272	O	  -0.14069	   0.00000	  -0.09072	   0.02053	   0.01596	   0.03562	   0.00000	  -0.15930	
+H	 30	   0.170	H	  -0.07905	   0.00000	  -0.01840	   0.02339	   0.01003	   0.00679	   0.00000	  -0.05724	
+C	 19	   0.079	C	  -0.20165	   0.00000	  -0.26511	   0.02149	   0.01085	   0.00027	   0.00000	  -0.43415	
+C	 20	   0.010	C	  -0.13802	   0.00000	  -0.27301	   0.00181	   0.00026	   0.00324	   0.00000	  -0.40572	
+C	 21	   0.010	C	  -0.17437	   0.00000	  -0.29621	   0.02059	   0.00007	   0.00455	   0.00000	  -0.44536	
+Total Energy components : 
+ E(LJ)    	  -3.26548
+ E(metal)	   0.00000
+ E(sol)   	  -6.34518
+ E(H-bonds)	   0.31808
+ E(elect)	   0.07406
+ E(internal)	   0.14250
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -8.60562
+
+
+----------------------------
+Detailed energy of pose     8 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04710	   0.00000	  -0.30505	   0.00029	  -0.00076	   0.00037	   0.00000	  -0.35224	
+C	  1	   0.063	A	  -0.04950	   0.00000	  -0.32669	   0.00008	  -0.00129	   0.00153	   0.00000	  -0.37586	
+C	  2	   0.012	A	  -0.06540	   0.00000	  -0.41884	   0.00040	  -0.00091	  -0.00046	   0.00000	  -0.48521	
+C	  7	   0.063	A	  -0.05678	   0.00000	  -0.33139	   0.00371	  -0.00082	   0.00245	   0.00000	  -0.38283	
+C	  8	   0.002	A	  -0.06645	   0.00000	  -0.45205	   0.00390	  -0.00021	   0.00005	   0.00000	  -0.51476	
+C	  9	   0.012	A	  -0.05704	   0.00000	  -0.42352	   0.00459	  -0.00073	   0.00029	   0.00000	  -0.47640	
+Cl	 10	  -0.082	Cl	  -0.58462	   0.00000	  -0.34607	  -0.00045	  -0.00048	   0.02743	   0.00000	  -0.90420	
+Cl	 22	  -0.082	Cl	  -0.55110	   0.00000	  -0.38228	  -0.00399	  -0.00117	   0.01676	   0.00000	  -0.92177	
+C	  3	   0.063	A	  -0.06024	   0.00000	  -0.33453	   0.02432	   0.00135	   0.00109	   0.00000	  -0.36803	
+C	  5	   0.038	A	  -0.07157	   0.00000	  -0.41726	   0.32138	   0.00129	   0.08886	   0.00000	  -0.07730	
+C	  6	   0.102	A	  -0.08026	   0.00000	  -0.51717	   0.00000	   0.00359	  -0.00775	   0.00000	  -0.60159	
+N	 13	  -0.227	N	  -0.21134	   0.00000	  -0.04952	   0.01664	   0.01437	   0.05455	   0.00000	  -0.17530	
+C	 14	   0.144	A	  -0.06343	   0.00000	  -0.36672	   0.00000	   0.00564	   0.00237	   0.00000	  -0.42214	
+C	 15	   0.054	A	  -0.06207	   0.00000	  -0.39100	   0.00769	   0.00075	   0.00450	   0.00000	  -0.44013	
+C	  4	   0.259	C	  -0.17444	   0.00000	  -0.24952	   0.00000	   0.00491	   0.01000	   0.00000	  -0.40904	
+O	 11	  -0.267	O	  -0.08603	   0.00000	  -0.06982	   0.02239	   0.00553	   0.09850	   0.00000	  -0.02944	
+N	 12	  -0.321	NX	  -0.01052	   0.00000	  -0.04767	   0.00000	   0.01137	   0.03178	   0.00000	  -0.01504	
+H	 28	   0.169	H	  -0.06601	   0.00000	  -0.01633	   0.02398	   0.00302	   0.00209	   0.00000	  -0.05325	
+N	 16	  -0.310	NX	  -0.01132	   0.00000	  -0.05921	   0.00000	  -0.00174	   0.00199	   0.00000	  -0.07027	
+C	 17	   0.235	C	  -0.23714	   0.00000	  -0.25250	   0.00000	   0.02140	   0.00760	   0.00000	  -0.46064	
+O	 18	  -0.272	O	  -0.11567	   0.00000	  -0.08541	  -0.11042	  -0.03592	   0.05121	   0.00000	  -0.29621	
+H	 30	   0.170	H	  -0.07915	   0.00000	  -0.01924	   0.02396	   0.00966	   0.00142	   0.00000	  -0.06334	
+C	 19	   0.079	C	  -0.17057	   0.00000	  -0.22225	   0.00536	   0.00485	   0.00039	   0.00000	  -0.38222	
+C	 20	   0.010	C	  -0.16252	   0.00000	  -0.30430	   0.00570	  -0.00024	  -0.00334	   0.00000	  -0.46471	
+C	 21	   0.010	C	  -0.16454	   0.00000	  -0.26601	   0.00958	   0.00037	   0.00577	   0.00000	  -0.41483	
+Total Energy components : 
+ E(LJ)    	  -3.30480
+ E(metal)	   0.00000
+ E(sol)   	  -6.65436
+ E(H-bonds)	   0.35911
+ E(elect)	   0.04382
+ E(internal)	   0.39945
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -8.68637
+
+
+----------------------------
+Detailed energy of pose     9 : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.04713	   0.00000	  -0.30385	   0.00065	  -0.00145	  -0.00067	   0.00000	  -0.35244	
+C	  1	   0.063	A	  -0.05655	   0.00000	  -0.33880	   0.00012	  -0.00282	   0.00278	   0.00000	  -0.39527	
+C	  2	   0.012	A	  -0.05713	   0.00000	  -0.44565	   0.00084	  -0.00071	   0.00043	   0.00000	  -0.50222	
+C	  7	   0.063	A	  -0.05580	   0.00000	  -0.33627	   0.00396	   0.00002	  -0.00270	   0.00000	  -0.39078	
+C	  8	   0.002	A	  -0.07108	   0.00000	  -0.47798	   0.01928	   0.00003	  -0.00005	   0.00000	  -0.52980	
+C	  9	   0.012	A	  -0.06986	   0.00000	  -0.44370	   0.01437	   0.00014	  -0.00067	   0.00000	  -0.49973	
+Cl	 10	  -0.082	Cl	  -0.63047	   0.00000	  -0.35318	  -0.00012	   0.00244	   0.00882	   0.00000	  -0.97251	
+Cl	 22	  -0.082	Cl	  -0.50763	   0.00000	  -0.36724	  -0.00324	  -0.00046	  -0.00376	   0.00000	  -0.88233	
+C	  3	   0.063	A	  -0.05753	   0.00000	  -0.31876	   0.00804	   0.00130	  -0.00168	   0.00000	  -0.36862	
+C	  5	   0.038	A	  -0.06987	   0.00000	  -0.44052	   0.27208	   0.00115	   0.00349	   0.00000	  -0.23368	
+C	  6	   0.102	A	  -0.08191	   0.00000	  -0.50476	   0.00000	   0.00115	   0.00326	   0.00000	  -0.58226	
+N	 13	  -0.227	N	  -0.20658	   0.00000	  -0.06600	   0.01673	   0.00359	   0.00267	   0.00000	  -0.24959	
+C	 14	   0.144	A	  -0.06053	   0.00000	  -0.33246	   0.00000	   0.00377	  -0.00292	   0.00000	  -0.39214	
+C	 15	   0.054	A	  -0.05004	   0.00000	  -0.32041	   0.00140	  -0.00034	   0.03282	   0.00000	  -0.33657	
+C	  4	   0.259	C	  -0.15637	   0.00000	  -0.22217	   0.00000	  -0.00085	   0.00201	   0.00000	  -0.37738	
+O	 11	  -0.267	O	  -0.05317	   0.00000	  -0.06187	   0.02243	   0.01967	   0.02605	   0.00000	  -0.04688	
+N	 12	  -0.321	NX	  -0.01088	   0.00000	  -0.04921	   0.00000	   0.00921	  -0.00305	   0.00000	  -0.05393	
+H	 28	   0.169	H	  -0.09040	   0.00000	  -0.03452	   0.02404	   0.01083	   0.00003	   0.00000	  -0.09002	
+N	 16	  -0.310	NX	  -0.01239	   0.00000	  -0.05050	   0.00000	   0.01399	  -0.00055	   0.00000	  -0.04944	
+C	 17	   0.235	C	  -0.16567	   0.00000	  -0.22037	   0.00000	  -0.00798	  -0.00032	   0.00000	  -0.39433	
+O	 18	  -0.272	O	  -0.07972	   0.00000	  -0.07355	  -0.15219	  -0.00612	   0.00490	   0.00000	  -0.30667	
+H	 30	   0.170	H	  -0.10318	   0.00000	  -0.03313	   0.02404	   0.00789	   0.00041	   0.00000	  -0.10398	
+C	 19	   0.079	C	  -0.15685	   0.00000	  -0.22204	   0.10669	  -0.00636	  -0.00064	   0.00000	  -0.27919	
+C	 20	   0.010	C	  -0.17743	   0.00000	  -0.32304	   0.03359	  -0.00074	  -0.00105	   0.00000	  -0.46867	
+C	 21	   0.010	C	  -0.13062	   0.00000	  -0.27238	   0.01206	  -0.00012	   0.00062	   0.00000	  -0.39044	
+Total Energy components : 
+ E(LJ)    	  -3.15877
+ E(metal)	   0.00000
+ E(sol)   	  -6.61235
+ E(H-bonds)	   0.40478
+ E(elect)	   0.04723
+ E(internal)	   0.07022
+ E(tors)	   0.47040
+ E(dihedral)	   0.02719
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -8.75130
+
+
+----------------------------
+Detailed energy of optimized reference ligand : 
+Name   	Number	  Charge   	Type   	E-VdW   	E-metal 	E-sol   	E-Hbonds	E-elec   	E-internal	E-extra   	E-total	
+C	  0	   0.077	A	  -0.05182	   0.00000	  -0.30050	   0.00059	  -0.00241	  -0.00060	   0.00000	  -0.35475	
+C	  1	   0.063	A	  -0.05424	   0.00000	  -0.33247	   0.00070	  -0.00236	  -0.00066	   0.00000	  -0.38902	
+C	  2	   0.012	A	  -0.06697	   0.00000	  -0.43518	   0.00395	  -0.00192	  -0.00047	   0.00000	  -0.50058	
+C	  7	   0.063	A	  -0.05794	   0.00000	  -0.30918	   0.00190	  -0.00387	   0.00043	   0.00000	  -0.36866	
+C	  8	   0.002	A	  -0.06498	   0.00000	  -0.44511	   0.06926	  -0.00034	  -0.00009	   0.00000	  -0.44125	
+C	  9	   0.012	A	  -0.06311	   0.00000	  -0.40118	   0.01128	  -0.00156	   0.00008	   0.00000	  -0.45448	
+Cl	 10	  -0.082	Cl	  -0.49268	   0.00000	  -0.35352	  -0.00066	  -0.00022	   0.00269	   0.00000	  -0.84439	
+Cl	 22	  -0.082	Cl	  -0.48538	   0.00000	  -0.32931	  -0.00639	   0.00453	   0.00226	   0.00000	  -0.81429	
+C	  3	   0.063	A	  -0.05180	   0.00000	  -0.31449	   0.00847	   0.00116	  -0.00423	   0.00000	  -0.36089	
+C	  5	   0.038	A	  -0.06238	   0.00000	  -0.41644	   0.02283	   0.00059	  -0.00129	   0.00000	  -0.45669	
+C	  6	   0.102	A	  -0.08026	   0.00000	  -0.51220	   0.00000	   0.00447	   0.00349	   0.00000	  -0.58449	
+N	 13	  -0.227	N	  -0.24675	   0.00000	  -0.06953	  -0.19871	  -0.02397	   0.00746	   0.00000	  -0.53149	
+C	 14	   0.144	A	  -0.07863	   0.00000	  -0.39361	   0.00000	   0.00484	   0.00211	   0.00000	  -0.46529	
+C	 15	   0.054	A	  -0.06311	   0.00000	  -0.35227	   0.08568	   0.00123	   0.06173	   0.00000	  -0.26674	
+C	  4	   0.259	C	  -0.18537	   0.00000	  -0.22024	   0.00000	   0.00253	  -0.00150	   0.00000	  -0.40458	
+O	 11	  -0.267	O	  -0.11592	   0.00000	  -0.07520	   0.02241	   0.00077	   0.00218	   0.00000	  -0.16575	
+N	 12	  -0.321	NX	  -0.00951	   0.00000	  -0.05083	   0.00000	   0.01190	   0.00613	   0.00000	  -0.04230	
+H	 28	   0.169	H	  -0.08615	   0.00000	  -0.03707	   0.02403	   0.00542	  -0.00017	   0.00000	  -0.09395	
+N	 16	  -0.310	NX	  -0.01607	   0.00000	  -0.07736	   0.00000	   0.02534	  -0.00071	   0.00000	  -0.06879	
+C	 17	   0.235	C	  -0.20554	   0.00000	  -0.28422	   0.00000	   0.01125	   0.00627	   0.00000	  -0.47224	
+O	 18	  -0.272	O	  -0.09996	   0.00000	  -0.05937	   0.02241	   0.00385	   0.05030	   0.00000	  -0.08276	
+H	 30	   0.170	H	  -0.18416	   0.00000	  -0.03877	  -0.13411	  -0.03689	   0.00117	   0.00000	  -0.39276	
+C	 19	   0.079	C	  -0.25665	   0.00000	  -0.31092	   0.03154	   0.00240	  -0.00049	   0.00000	  -0.53412	
+C	 20	   0.010	C	  -0.20108	   0.00000	  -0.35466	   0.07345	   0.00164	  -0.00013	   0.00000	  -0.48078	
+C	 21	   0.010	C	  -0.17056	   0.00000	  -0.32181	   0.00632	   0.00011	   0.00745	   0.00000	  -0.47849	
+Total Energy components : 
+ E(LJ)    	  -3.45099
+ E(metal)	   0.00000
+ E(sol)   	  -6.79541
+ E(H-bonds)	   0.04495
+ E(elect)	   0.00849
+ E(internal)	   0.14343
+ E(tors)	   0.47040
+ E(dihedral)	   0.00000
+ E(constraints)	   0.00000
+ E(penalty)	   0.00000
+dG of binding, kcal/mol 	  -9.57913
+
+
+System Prep for "AF_relavent_res_P" and "A 0X5 1201_D (1)" Complete
+07/10/2022 15:58
+
+Process config 'Normal OpenMM (AM1-BCC)'
+Force-field used during the calculation:                                                     	AMBER
+GAFF version used for small molecules:                                                       	GAFF2
+Generate topology and coordinates files:                                                     	true
+Ionic strength of the explicit solvent box (M):                                              	0
+Membrane type:                                                                               	None
+Method used to compute partial charges:                                                      	AM1-BCC
+Minimum distance between any atom and the edge of the solvation box (A):                     	10
+Solvent Box Shape:                                                                           	Truncated Octahedron
+Solvent Model:                                                                               	Implicit OBC2
+
+Ligand "A 0X5 1201_D (1)". Moving heavy atoms 23, total heavy atoms 23.
+
+Protein "AF_relavent_res_P".
+    Chain "A Chain". Moving heavy atoms 0, total heavy atoms 2349.
+
+No problems found.
+
+Small molecule cache file: /home/li/.com.cresset-bmd/Flare/openmmforcefieldsCache/v1/molecules-am1bcc.json
+
+Extra OpenMM force field files:
+
+
+The following residues required parameterisation using GAFF:
+A 0X5 1201	[H][C]1=[N][C]([N]([H])[C](=[O])[C@]2([H])[C]([H])([H])[C]2([H])[H])=[C]([H])[C]([N]([H])[C](=[O])[C]2=[C]([Cl])[C]([H])=[C]([H])[C]([H])=[C]2[Cl])=[C]1[H]
+
+
+Output files written:
+/tmp/FieldEngine-li/OpenMM_Force_Fields_1024597_1/openmmff_output.prmtop
+/tmp/FieldEngine-li/OpenMM_Force_Fields_1024597_1/openmmff_output.inpcrd
+/tmp/FieldEngine-li/OpenMM_Force_Fields_1024597_1/openmmff_output.pdb
+
+Warnings:
+
+Minimization of "AF_relavent_res_P" and "A 0X5 1201_D (1) Complete"
+07/10/2022 15:58
+0 moving heavy atoms, 2372 total heavy atoms
+
+Process config 'Normal OpenMM (AM1-BCC)'
+Equilibrate for this many ps of molecular dynamics:                                          	200
+Hydrogen mass repartitioning factor:                                                         	1.5
+Max number of energy minimization iterations (0=unlimited):                                  	0
+Pre-minimise the system to tolerance (kcal/mol):                                             	0.25
+Should only the last frame of the trajectory be included:                                    	true
+Should only the minimization step be run:                                                    	true
+Should the molecule be minimized at the end:                                                 	true
+Should the trajectory be created:                                                            	true
+The CPU/GPU platform to use:                                                                 	GPU
+The cut-off distance to use for non-bonded interactions:                                     	12
+The dynamics production run time in ns:                                                      	10
+The ensemble to use for dynamics calculations:                                               	NPT
+The method to use for non-bonded interactions:                                               	Reaction field
+The number of time steps between DCD reporting (must be 100 or greater, although 0=automatic):	0
+The pressure acting on the system in bar:                                                    	1
+The strength of the restraints:                                                              	1
+The temperature of the heat bath in Kelvin:                                                  	298
+The time between each step of the simulation, in femtoseconds:                               	4
+
+Ligand "A 0X5 1201_D (1)". Moving heavy atoms 0, total heavy atoms 2372.
+
+Protein "AF_relavent_res_P".
+    Chain "A Chain". Moving heavy atoms 0, total heavy atoms 2349.
+
+
+Molecule minimized. Heavy atom RMSD to starting structure 0.33A.
+Start energy -6091.62 kcal/mol. Final energy -6226.45 kcal/mol.
+
