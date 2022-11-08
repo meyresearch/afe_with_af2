@@ -1,0 +1,50 @@
+# This file was created Tue Nov  8 13:35:55 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2022.3 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/li/project/afe_with_af2/Equilibration/bound_sys/res_NVT
+# Command line:
+#   gmx energy -f gromacs.edr -o tempreture.xvg
+# gmx energy is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000    0.149042
+    0.200000   63.475616
+    0.400000   66.984406
+    0.600000   67.447014
+    0.800000   69.172417
+    1.000000   70.550507
+    1.200000   72.484909
+    1.400000   74.024406
+    1.600000   77.399918
+    1.800000   80.497910
+    2.000000   85.104874
+    2.200000   89.607811
+    2.400000   94.704254
+    2.600000  100.305069
+    2.800000  106.820061
+    3.000000  113.125374
+    3.200000  120.299347
+    3.400000  127.452209
+    3.600000  134.558243
+    3.800000  141.762711
+    4.000000  149.851700
+    4.200000  158.952881
+    4.400000  166.995392
+    4.600000  176.589767
+    4.800000  185.707336
+    5.000000  193.571991

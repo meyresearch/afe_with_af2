@@ -1,0 +1,22 @@
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/li/project/afe_with_af2/Equilibration/free_lig/res_NPT
+Command line:
+  gmx mdrun -deffnm gromacs
+
+
+Back Off! I just backed up gromacs.log to ./#gromacs.log.1#
+Reading file gromacs.tpr, VERSION 2022.3 (single precision)
+Changing nstlist from 10 to 80, rlist from 1.2 to 1.32
+
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+
+Back Off! I just backed up gromacs.trr to ./#gromacs.trr.1#
+
+Back Off! I just backed up gromacs.edr to ./#gromacs.edr.1#
+starting mdrun 'BioSimSpace System'
+100000 steps,    200.0 ps.

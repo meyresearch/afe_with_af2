@@ -1,0 +1,50 @@
+# This file was created Fri Nov  4 15:02:11 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2022.3 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/li/project/afe_with_af2/Equilibration/free_lig/res_NVT
+# Command line:
+#   gmx energy -f gromacs.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000    0.349129
+    0.200000   79.450005
+    0.400000   81.884598
+    0.600000   86.021088
+    0.800000   86.595291
+    1.000000   86.321518
+    1.200000   89.592461
+    1.400000   89.003822
+    1.600000   90.083298
+    1.800000   95.116005
+    2.000000   96.970184
+    2.200000  102.751404
+    2.400000  103.642372
+    2.600000  111.155525
+    2.800000  115.526016
+    3.000000  122.679672
+    3.200000  125.758453
+    3.400000  134.446762
+    3.600000  142.979401
+    3.800000  149.256760
+    4.000000  159.477509
+    4.200000  165.063568
+    4.400000  172.594208
+    4.600000  179.534149
+    4.800000  183.356750
+    5.000000  199.442963

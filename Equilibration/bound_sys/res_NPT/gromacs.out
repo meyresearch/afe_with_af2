@@ -1,0 +1,28 @@
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/li/project/afe_with_af2/Equilibration/bound_sys/res_NPT
+Command line:
+  gmx mdrun -deffnm gromacs
+
+Reading file gromacs.tpr, VERSION 2022.3 (single precision)
+Changing nstlist from 10 to 80, rlist from 1.2 to 1.316
+
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+starting mdrun 'default_name'
+100000 steps,    200.0 ps.
+
+Writing final coordinates.
+
+Back Off! I just backed up gromacs.gro to ./#gromacs.gro.1#
+
+               Core t (s)   Wall t (s)        (%)
+       Time:    12932.002      808.250     1600.0
+                 (ns/day)    (hour/ns)
+Performance:       21.380        1.123
+
+GROMACS reminds you: "The three principal virtues of a programmer are Laziness, Impatience, and Hubris" (Larry Wall)
+

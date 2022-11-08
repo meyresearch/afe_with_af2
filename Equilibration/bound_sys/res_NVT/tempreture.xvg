@@ -1,0 +1,50 @@
+# This file was created Tue Nov  8 13:39:52 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2022.3 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/li/project/afe_with_af2/Equilibration/bound_sys/res_NVT
+# Command line:
+#   gmx energy -f gromacs.edr -o tempreture.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GRoups of Organic Molecules in ACtion for Science
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000    0.149037
+    0.200000   63.453152
+    0.400000   67.091736
+    0.600000   67.564529
+    0.800000   69.287895
+    1.000000   70.284691
+    1.200000   72.659142
+    1.400000   74.980042
+    1.600000   77.539963
+    1.800000   80.699753
+    2.000000   85.035912
+    2.200000   89.342842
+    2.400000   94.409767
+    2.600000  100.174240
+    2.800000  106.435410
+    3.000000  113.236320
+    3.200000  120.152870
+    3.400000  126.615738
+    3.600000  134.231400
+    3.800000  142.615753
+    4.000000  150.427490
+    4.200000  159.489639
+    4.400000  167.168427
+    4.600000  176.862198
+    4.800000  186.246735
+    5.000000  194.631454

@@ -1,2 +1,10 @@
 *.swp
 *.pdb
+*.prm7
+*.rst7
+ejm46_ejm50/*
+.ipynb_checkpoints/
+*.trr
+*.gro
+*.top
+*.xtc
