@@ -1,0 +1,35 @@
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/li/project/afe_with_af2/Minimisation/bound_sys
+Command line:
+  gmx mdrun -deffnm gromacs
+
+Reading file gromacs.tpr, VERSION 2022.3 (single precision)
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =          250
+
+step 11: One or more water molecules can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Back Off! I just backed up gromacs.gro to ./#gromacs.gro.1#
+
+Steepest Descents did not converge to Fmax < 10 in 251 steps.
+Potential Energy  = -8.3428669e+05
+Maximum force     =  5.7762861e+03 on atom 4678
+Norm of force     =  4.9869390e+01
+
+GROMACS reminds you: "Do not go where the path may lead, go instead where there is no path and leave a trail" (Ralph Waldo Emerson)
+

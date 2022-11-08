@@ -1,0 +1,15 @@
+#ID	FileName
+0	000_jmc_28.sdf
+1	001_jmc_23.sdf
+2	002_ejm_50.sdf
+3	003_ejm_48.sdf
+4	004_jmc_30.sdf
+5	005_ejm_31.sdf
+6	006_ejm_47.sdf
+7	007_ejm_55.sdf
+8	008_jmc_27.sdf
+9	009_ejm_45.sdf
+10	010_ejm_54.sdf
+11	011_ejm_43.sdf
+12	012_ejm_42.sdf
+13	013_ejm_46.sdf

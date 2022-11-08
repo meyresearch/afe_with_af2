@@ -1,0 +1,4 @@
+source leaprc.protein.ff14SB
+pdb = loadpdb AF_P_HisChange.pdb
+saveamberparm pdb af_dry.prm7 af_dry.rst7
+quit

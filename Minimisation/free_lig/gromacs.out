@@ -1,0 +1,31 @@
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/li/project/afe_with_af2/Minimisation/free_lig
+Command line:
+  gmx mdrun -deffnm gromacs
+
+Reading file gromacs.tpr, VERSION 2022.3 (single precision)
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =          250
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Back Off! I just backed up gromacs.gro to ./#gromacs.gro.1#
+
+Steepest Descents did not converge to Fmax < 10 in 251 steps.
+Potential Energy  = -4.6008613e+04
+Maximum force     =  6.3750537e+03 on atom 18
+Norm of force     =  1.5735212e+02
+
+GROMACS reminds you: "Jesus Built My Hotrod" (Ministry)
+

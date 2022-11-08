@@ -8,3 +8,5 @@ ejm46_ejm50/*
 *.gro
 *.top
 *.xtc
+*.cpt
+*.tpr
